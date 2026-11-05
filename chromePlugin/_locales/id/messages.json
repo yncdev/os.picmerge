@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Menggabungkan beberapa gambar dan PDF menjadi satu PNG atau PDF untuk disimpan dan dibagikan. Semua diproses di PC ini."
+  },
+  "ext_action_title": {
+    "message": "Buka Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "Gabung Gambar"
+  },
+  "html_lang": {
+    "message": "id"
+  },
+  "history_title": {
+    "message": "Riwayat terbaru"
+  },
+  "add_progress_label": {
+    "message": "Memuat file"
+  },
+  "list_panel_label": {
+    "message": "Daftar pilihan"
+  },
+  "list_count": {
+    "message": "Gambar dipilih $1/$2"
+  },
+  "add": {
+    "message": "Tambah"
+  },
+  "clear": {
+    "message": "Kosongkan"
+  },
+  "empty_title": {
+    "message": "Pilih minimal 2 gambar untuk digabung"
+  },
+  "empty_text": {
+    "message": "Arah tata letak dipilih secara otomatis."
+  },
+  "pick_files": {
+    "message": "Pilih gambar atau PDF"
+  },
+  "drop_hint": {
+    "message": "Anda juga dapat melepas file JPEG, PNG, WebP, dan PDF ke halaman ini."
+  },
+  "output_panel_label": {
+    "message": "Setelan keluaran dan pratinjau"
+  },
+  "setting_paper": {
+    "message": "Kertas"
+  },
+  "setting_orientation": {
+    "message": "Orientasi"
+  },
+  "orientation_portrait": {
+    "message": "Potret"
+  },
+  "orientation_landscape": {
+    "message": "Lanskap"
+  },
+  "setting_per_sheet": {
+    "message": "Gambar per lembar"
+  },
+  "setting_image_size": {
+    "message": "Ukuran gambar"
+  },
+  "setting_padding": {
+    "message": "Margin"
+  },
+  "setting_color": {
+    "message": "Warna"
+  },
+  "color_color": {
+    "message": "Warna"
+  },
+  "color_gray": {
+    "message": "Skala abu-abu"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Ukuran asli"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "Pratinjau"
+  },
+  "preview_summary": {
+    "message": "Halaman: $1 · Gambar per lembar: $2"
+  },
+  "preview_page_label": {
+    "message": "Halaman $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG menyambung halaman dari kiri ke kanan menjadi satu file, dengan garis abu-abu di antara gambar. PDF menyimpan setiap halaman secara terpisah, tanpa garis."
+  },
+  "preview_note_vertical": {
+    "message": "PNG menyambung halaman dari atas ke bawah menjadi satu file, dengan garis abu-abu di antara gambar. PDF menyimpan setiap halaman secara terpisah, tanpa garis."
+  },
+  "preview_note_original": {
+    "message": "Ini pratinjau PNG. PNG memiliki garis abu-abu di antara gambar. PDF menyimpan satu halaman per gambar, tanpa garis."
+  },
+  "direction_horizontal": {
+    "message": "Otomatis: berdampingan (kiri → kanan)"
+  },
+  "direction_vertical": {
+    "message": "Otomatis: bertumpuk (atas → bawah)"
+  },
+  "save_hint": {
+    "message": "Pilih minimal 2 gambar untuk menyimpan."
+  },
+  "save_png": {
+    "message": "Simpan PNG"
+  },
+  "save_pdf": {
+    "message": "Simpan PDF"
+  },
+  "share": {
+    "message": "Bagikan"
+  },
+  "drop_overlay": {
+    "message": "Lepas di sini untuk menambahkan ke daftar"
+  },
+  "progress_hint": {
+    "message": "Gambar besar dapat memerlukan puluhan detik."
+  },
+  "progress_keep_tab": {
+    "message": "Jangan tutup tab ini sampai selesai."
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "share_format_title": {
+    "message": "Format apa yang ingin dibagikan?"
+  },
+  "share_as_png": {
+    "message": "Bagikan sebagai PNG"
+  },
+  "share_as_pdf": {
+    "message": "Bagikan sebagai PDF"
+  },
+  "share_png": {
+    "message": "Bagikan PNG"
+  },
+  "share_pdf": {
+    "message": "Bagikan PDF"
+  },
+  "share_title": {
+    "message": "File telah dibuat"
+  },
+  "share_system": {
+    "message": "Bagikan"
+  },
+  "share_copy": {
+    "message": "Salin gambar"
+  },
+  "share_mail": {
+    "message": "Tulis email"
+  },
+  "share_download": {
+    "message": "Unduh"
+  },
+  "share_unavailable": {
+    "message": "Chrome di PC ini tidak mendukung jendela berbagi file. Unduh atau salin file, lalu kirimkan."
+  },
+  "share_note": {
+    "message": "Di PC, Anda tidak dapat mengirim langsung ke KakaoTalk atau SMS. Jika aplikasinya ada di jendela berbagi OS yang dibuka dengan \"Bagikan\", Anda dapat memilihnya di sana. Setelah \"Salin gambar\", PNG dapat ditempel ke obrolan KakaoTalk di PC. \"Tulis email\" mengunduh file dan membuka aplikasi email; Anda harus melampirkan file sendiri."
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "crop_title": {
+    "message": "Edit area"
+  },
+  "crop_loading": {
+    "message": "Membuka gambar…"
+  },
+  "crop_image_alt": {
+    "message": "Gambar yang akan diedit"
+  },
+  "crop_reset": {
+    "message": "Pilih semua"
+  },
+  "crop_apply": {
+    "message": "Terapkan"
+  },
+  "history_empty": {
+    "message": "Belum ada yang disimpan."
+  },
+  "snack_max_images": {
+    "message": "Anda dapat menambahkan hingga $1 gambar."
+  },
+  "snack_unsupported": {
+    "message": "File yang dikecualikan karena formatnya tidak didukung: $1"
+  },
+  "snack_over_limit": {
+    "message": "Anda dapat menambahkan hingga $1 gambar, jadi hanya $2 yang ditambahkan."
+  },
+  "clear_confirm": {
+    "message": "Hapus semua gambar yang dipilih dari daftar?\nFile asli tidak dihapus."
+  },
+  "crop_open_failed_title": {
+    "message": "Tidak dapat membuka gambar"
+  },
+  "crop_open_failed_message": {
+    "message": "Pilih gambar lagi."
+  },
+  "snack_saved": {
+    "message": "Disimpan melalui unduhan browser: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Berbagi dibatalkan."
+  },
+  "snack_save_cancelled": {
+    "message": "Penyimpanan dibatalkan."
+  },
+  "alert_share_failed_title": {
+    "message": "Tidak dapat membuat file"
+  },
+  "alert_save_failed_title": {
+    "message": "Tidak dapat menyimpan"
+  },
+  "crashed_title": {
+    "message": "Penyimpanan sebelumnya belum selesai"
+  },
+  "crashed_message": {
+    "message": "Penyimpanan sebelumnya berhenti di tengah jalan. Biarkan aplikasi tetap terbuka sampai penyimpanan selesai. Jika terus terjadi, gunakan lebih sedikit gambar."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 gambar"
+  },
+  "history_rate": {
+    "message": "Tingkat keberhasilan $1 hari terakhir: $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "Tidak ada penyimpanan dalam $1 hari terakhir."
+  },
+  "status_running": {
+    "message": "Berlangsung"
+  },
+  "status_success": {
+    "message": "Berhasil"
+  },
+  "status_failed": {
+    "message": "Gagal"
+  },
+  "status_cancelled": {
+    "message": "Dibatalkan"
+  },
+  "status_crashed": {
+    "message": "Berhenti tidak normal"
+  },
+  "error_unsupported_format": {
+    "message": "Ada gambar dengan format yang tidak didukung."
+  },
+  "error_unsupported_format_n": {
+    "message": "Gambar ke-$1 memiliki format yang tidak didukung."
+  },
+  "error_corrupt_file": {
+    "message": "Ada file gambar yang rusak."
+  },
+  "error_corrupt_file_n": {
+    "message": "File gambar ke-$1 rusak."
+  },
+  "error_source_unavailable": {
+    "message": "Tidak dapat membuka gambar. Pilih lagi."
+  },
+  "error_source_unavailable_n": {
+    "message": "Tidak dapat membuka gambar ke-$1. Pilih lagi."
+  },
+  "error_out_of_space": {
+    "message": "Ruang penyimpanan tidak cukup."
+  },
+  "error_output_too_large": {
+    "message": "File hasil terlalu besar. Gunakan lebih sedikit gambar."
+  },
+  "error_out_of_memory": {
+    "message": "Memori tidak cukup. Gunakan lebih sedikit gambar."
+  },
+  "error_unknown": {
+    "message": "Terjadi kesalahan yang tidak diketahui."
+  },
+  "item_cropped": {
+    "message": "Area diedit"
+  },
+  "item_crop_label": {
+    "message": "Edit area item ke-$1"
+  },
+  "item_remove_title": {
+    "message": "Hapus dari daftar"
+  },
+  "item_remove_label": {
+    "message": "Hapus item ke-$1 dari daftar"
+  },
+  "item_drag_title": {
+    "message": "Seret untuk mengubah urutan"
+  },
+  "item_drag_label": {
+    "message": "Ubah urutan item ke-$1. Gunakan tombol panah atas dan bawah untuk memindahkan"
+  },
+  "progress_cancelling": {
+    "message": "Membatalkan…"
+  },
+  "progress_images": {
+    "message": "Memproses gambar $1/$2"
+  },
+  "progress_building": {
+    "message": "Membuat file"
+  },
+  "copy_png_only": {
+    "message": "Hanya PNG yang dapat disalin sebagai gambar."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "Harap lampirkan file yang baru saja diunduh ($1) ke email ini."
+  },
+  "snack_share_failed": {
+    "message": "Tidak dapat membuka jendela berbagi. Unduh file, lalu kirimkan."
+  },
+  "snack_copied": {
+    "message": "Gambar disalin. Anda dapat menempelkannya ke KakaoTalk atau email."
+  },
+  "snack_copy_failed": {
+    "message": "Tidak dapat menyalin gambar. Unduh, lalu kirimkan."
+  },
+  "snack_mail": {
+    "message": "File diunduh. Harap lampirkan $1 ke email."
+  },
+  "save_location_default": {
+    "message": "Folder: unduhan browser"
+  },
+  "save_location_custom": {
+    "message": "Folder: $1"
+  },
+  "save_privacy_note": {
+    "message": "File tidak pernah keluar dari PC ini."
+  },
+  "change_folder": {
+    "message": "Ubah"
+  },
+  "folder_dialog_title": {
+    "message": "Ubah folder penyimpanan"
+  },
+  "folder_use_default": {
+    "message": "Gunakan folder default"
+  },
+  "folder_pick": {
+    "message": "Pilih folder lain"
+  },
+  "progress_saving": {
+    "message": "Menyimpan"
+  },
+  "snack_saved_folder": {
+    "message": "Disimpan ke $1: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Folder penyimpanan tidak dapat diakses. Pilih folder lagi."
+  },
+  "folder_pick_failed": {
+    "message": "Folder tidak dapat dipilih. Coba lagi."
+  }
+}

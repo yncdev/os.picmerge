@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Combine plusieurs images et PDF en un seul PNG ou PDF à enregistrer et partager. Tout est traité sur ce PC."
+  },
+  "ext_action_title": {
+    "message": "Ouvrir Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "Fusion d'images"
+  },
+  "html_lang": {
+    "message": "fr"
+  },
+  "history_title": {
+    "message": "Historique récent"
+  },
+  "add_progress_label": {
+    "message": "Chargement des fichiers"
+  },
+  "list_panel_label": {
+    "message": "Liste de sélection"
+  },
+  "list_count": {
+    "message": "Images sélectionnées $1/$2"
+  },
+  "add": {
+    "message": "Ajouter"
+  },
+  "clear": {
+    "message": "Vider"
+  },
+  "empty_title": {
+    "message": "Choisissez au moins 2 images à fusionner"
+  },
+  "empty_text": {
+    "message": "Le sens de disposition est choisi automatiquement."
+  },
+  "pick_files": {
+    "message": "Choisir des images ou des PDF"
+  },
+  "drop_hint": {
+    "message": "Vous pouvez aussi déposer des fichiers JPEG, PNG, WebP et PDF sur cette page."
+  },
+  "output_panel_label": {
+    "message": "Paramètres de sortie et aperçu"
+  },
+  "setting_paper": {
+    "message": "Papier"
+  },
+  "setting_orientation": {
+    "message": "Orientation"
+  },
+  "orientation_portrait": {
+    "message": "Portrait"
+  },
+  "orientation_landscape": {
+    "message": "Paysage"
+  },
+  "setting_per_sheet": {
+    "message": "Images par feuille"
+  },
+  "setting_image_size": {
+    "message": "Taille de l'image"
+  },
+  "setting_padding": {
+    "message": "Marge"
+  },
+  "setting_color": {
+    "message": "Couleur"
+  },
+  "color_color": {
+    "message": "Couleur"
+  },
+  "color_gray": {
+    "message": "Niveaux de gris"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Lettre US"
+  },
+  "paper_legal": {
+    "message": "Légal US"
+  },
+  "paper_original": {
+    "message": "Taille d'origine"
+  },
+  "percent_value": {
+    "message": "$1 %"
+  },
+  "preview_label": {
+    "message": "Aperçu"
+  },
+  "preview_summary": {
+    "message": "Pages : $1 · Images par feuille : $2"
+  },
+  "preview_page_label": {
+    "message": "Page $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG assemble les pages de gauche à droite en un seul fichier, avec une ligne grise entre les images. PDF enregistre chaque page séparément, sans ligne."
+  },
+  "preview_note_vertical": {
+    "message": "PNG assemble les pages de haut en bas en un seul fichier, avec une ligne grise entre les images. PDF enregistre chaque page séparément, sans ligne."
+  },
+  "preview_note_original": {
+    "message": "Ceci est l'aperçu PNG. PNG comporte une ligne grise entre les images. PDF enregistre une page par image, sans ligne."
+  },
+  "direction_horizontal": {
+    "message": "Auto : côte à côte (gauche → droite)"
+  },
+  "direction_vertical": {
+    "message": "Auto : empilées (haut → bas)"
+  },
+  "save_hint": {
+    "message": "Choisissez au moins 2 images pour enregistrer."
+  },
+  "save_png": {
+    "message": "Enregistrer en PNG"
+  },
+  "save_pdf": {
+    "message": "Enregistrer en PDF"
+  },
+  "share": {
+    "message": "Partager"
+  },
+  "drop_overlay": {
+    "message": "Déposez ici pour ajouter à la liste"
+  },
+  "progress_hint": {
+    "message": "Les grandes images peuvent prendre plusieurs dizaines de secondes."
+  },
+  "progress_keep_tab": {
+    "message": "Gardez cet onglet ouvert jusqu'à la fin."
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "share_format_title": {
+    "message": "Dans quel format voulez-vous partager ?"
+  },
+  "share_as_png": {
+    "message": "Partager en PNG"
+  },
+  "share_as_pdf": {
+    "message": "Partager en PDF"
+  },
+  "share_png": {
+    "message": "Partage PNG"
+  },
+  "share_pdf": {
+    "message": "Partage PDF"
+  },
+  "share_title": {
+    "message": "Fichier créé"
+  },
+  "share_system": {
+    "message": "Partager"
+  },
+  "share_copy": {
+    "message": "Copier l'image"
+  },
+  "share_mail": {
+    "message": "Écrire un e-mail"
+  },
+  "share_download": {
+    "message": "Télécharger"
+  },
+  "share_unavailable": {
+    "message": "Chrome sur ce PC ne prend pas en charge la fenêtre de partage de fichiers. Téléchargez ou copiez le fichier, puis envoyez-le."
+  },
+  "share_note": {
+    "message": "Sur un PC, vous ne pouvez pas envoyer directement vers KakaoTalk ou par SMS. Si l'application figure dans la fenêtre de partage du système ouverte par « Partager », vous pouvez la choisir. Après « Copier l'image », un PNG peut être collé dans une discussion KakaoTalk pour PC. « Écrire un e-mail » télécharge le fichier et ouvre votre application de messagerie ; vous devez joindre le fichier vous-même."
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "crop_title": {
+    "message": "Modifier la zone"
+  },
+  "crop_loading": {
+    "message": "Ouverture de l'image…"
+  },
+  "crop_image_alt": {
+    "message": "Image à modifier"
+  },
+  "crop_reset": {
+    "message": "Tout sélectionner"
+  },
+  "crop_apply": {
+    "message": "Appliquer"
+  },
+  "history_empty": {
+    "message": "Rien n'a encore été enregistré."
+  },
+  "snack_max_images": {
+    "message": "Vous pouvez ajouter jusqu'à $1 images."
+  },
+  "snack_unsupported": {
+    "message": "Fichiers exclus car leur format n'est pas pris en charge : $1"
+  },
+  "snack_over_limit": {
+    "message": "Vous pouvez ajouter jusqu'à $1 images ; nombre d'images ajoutées : $2."
+  },
+  "clear_confirm": {
+    "message": "Retirer toutes les images sélectionnées de la liste ?\nLes fichiers d'origine ne sont pas supprimés."
+  },
+  "crop_open_failed_title": {
+    "message": "Impossible d'ouvrir l'image"
+  },
+  "crop_open_failed_message": {
+    "message": "Veuillez choisir l'image à nouveau."
+  },
+  "snack_saved": {
+    "message": "Enregistré via le téléchargement du navigateur : $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Partage annulé."
+  },
+  "snack_save_cancelled": {
+    "message": "Enregistrement annulé."
+  },
+  "alert_share_failed_title": {
+    "message": "Impossible de créer le fichier"
+  },
+  "alert_save_failed_title": {
+    "message": "Impossible d'enregistrer"
+  },
+  "crashed_title": {
+    "message": "L'enregistrement précédent n'est pas terminé"
+  },
+  "crashed_message": {
+    "message": "L'enregistrement précédent s'est interrompu. Gardez l'application ouverte jusqu'à la fin de l'enregistrement. Si le problème persiste, utilisez moins d'images."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 images"
+  },
+  "history_rate": {
+    "message": "Taux de réussite, $1 derniers jours : $2 % ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "Aucun enregistrement au cours des $1 derniers jours."
+  },
+  "status_running": {
+    "message": "En cours"
+  },
+  "status_success": {
+    "message": "Réussi"
+  },
+  "status_failed": {
+    "message": "Échec"
+  },
+  "status_cancelled": {
+    "message": "Annulé"
+  },
+  "status_crashed": {
+    "message": "Arrêt anormal"
+  },
+  "error_unsupported_format": {
+    "message": "Une image a un format non pris en charge."
+  },
+  "error_unsupported_format_n": {
+    "message": "L'image $1 a un format non pris en charge."
+  },
+  "error_corrupt_file": {
+    "message": "Un fichier image est endommagé."
+  },
+  "error_corrupt_file_n": {
+    "message": "Le fichier de l'image $1 est endommagé."
+  },
+  "error_source_unavailable": {
+    "message": "Impossible d'ouvrir une image. Veuillez la choisir à nouveau."
+  },
+  "error_source_unavailable_n": {
+    "message": "Impossible d'ouvrir l'image $1. Veuillez la choisir à nouveau."
+  },
+  "error_out_of_space": {
+    "message": "Espace de stockage insuffisant."
+  },
+  "error_output_too_large": {
+    "message": "Le fichier obtenu est trop volumineux. Utilisez moins d'images."
+  },
+  "error_out_of_memory": {
+    "message": "Mémoire insuffisante. Utilisez moins d'images."
+  },
+  "error_unknown": {
+    "message": "Une erreur inconnue s'est produite."
+  },
+  "item_cropped": {
+    "message": "Zone modifiée"
+  },
+  "item_crop_label": {
+    "message": "Modifier la zone de l'élément $1"
+  },
+  "item_remove_title": {
+    "message": "Retirer de la liste"
+  },
+  "item_remove_label": {
+    "message": "Retirer l'élément $1 de la liste"
+  },
+  "item_drag_title": {
+    "message": "Faire glisser pour réorganiser"
+  },
+  "item_drag_label": {
+    "message": "Réorganiser l'élément $1. Utilisez les flèches haut et bas pour le déplacer"
+  },
+  "progress_cancelling": {
+    "message": "Annulation…"
+  },
+  "progress_images": {
+    "message": "Traitement des images $1/$2"
+  },
+  "progress_building": {
+    "message": "Création du fichier"
+  },
+  "copy_png_only": {
+    "message": "Seul le PNG peut être copié en tant qu'image."
+  },
+  "mail_subject": {
+    "message": "Pic Merge : $1"
+  },
+  "mail_body": {
+    "message": "Veuillez joindre à cet e-mail le fichier que vous venez de télécharger ($1)."
+  },
+  "snack_share_failed": {
+    "message": "Impossible d'ouvrir la fenêtre de partage. Téléchargez le fichier, puis envoyez-le."
+  },
+  "snack_copied": {
+    "message": "Image copiée. Vous pouvez la coller dans KakaoTalk ou un e-mail."
+  },
+  "snack_copy_failed": {
+    "message": "Impossible de copier l'image. Téléchargez-la, puis envoyez-la."
+  },
+  "snack_mail": {
+    "message": "Fichier téléchargé. Veuillez joindre $1 à l'e-mail."
+  },
+  "save_location_default": {
+    "message": "Dossier : téléchargements du navigateur"
+  },
+  "save_location_custom": {
+    "message": "Dossier : $1"
+  },
+  "save_privacy_note": {
+    "message": "Les fichiers ne quittent jamais ce PC."
+  },
+  "change_folder": {
+    "message": "Modifier"
+  },
+  "folder_dialog_title": {
+    "message": "Modifier le dossier d'enregistrement"
+  },
+  "folder_use_default": {
+    "message": "Utiliser le dossier par défaut"
+  },
+  "folder_pick": {
+    "message": "Choisir un autre dossier"
+  },
+  "progress_saving": {
+    "message": "Enregistrement"
+  },
+  "snack_saved_folder": {
+    "message": "Enregistré dans $1 : $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Impossible d'accéder au dossier d'enregistrement. Veuillez choisir à nouveau un dossier."
+  },
+  "folder_pick_failed": {
+    "message": "Impossible de choisir le dossier. Veuillez réessayer."
+  }
+}

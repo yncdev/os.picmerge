@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Ghép nhiều ảnh và PDF thành một tệp PNG hoặc PDF để lưu và chia sẻ. Mọi xử lý đều diễn ra trên máy tính này."
+  },
+  "ext_action_title": {
+    "message": "Mở Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "Ghép ảnh"
+  },
+  "html_lang": {
+    "message": "vi"
+  },
+  "history_title": {
+    "message": "Lịch sử gần đây"
+  },
+  "add_progress_label": {
+    "message": "Đang tải tệp"
+  },
+  "list_panel_label": {
+    "message": "Danh sách đã chọn"
+  },
+  "list_count": {
+    "message": "Ảnh đã chọn $1/$2"
+  },
+  "add": {
+    "message": "Thêm"
+  },
+  "clear": {
+    "message": "Xóa hết"
+  },
+  "empty_title": {
+    "message": "Hãy chọn ít nhất 2 ảnh để ghép"
+  },
+  "empty_text": {
+    "message": "Hướng sắp xếp được chọn tự động."
+  },
+  "pick_files": {
+    "message": "Chọn ảnh hoặc PDF"
+  },
+  "drop_hint": {
+    "message": "Bạn cũng có thể thả tệp JPEG, PNG, WebP và PDF vào trang này."
+  },
+  "output_panel_label": {
+    "message": "Cài đặt đầu ra và xem trước"
+  },
+  "setting_paper": {
+    "message": "Khổ giấy"
+  },
+  "setting_orientation": {
+    "message": "Hướng giấy"
+  },
+  "orientation_portrait": {
+    "message": "Dọc"
+  },
+  "orientation_landscape": {
+    "message": "Ngang"
+  },
+  "setting_per_sheet": {
+    "message": "Số ảnh mỗi tờ"
+  },
+  "setting_image_size": {
+    "message": "Kích thước ảnh"
+  },
+  "setting_padding": {
+    "message": "Lề"
+  },
+  "setting_color": {
+    "message": "Màu"
+  },
+  "color_color": {
+    "message": "Màu"
+  },
+  "color_gray": {
+    "message": "Thang xám"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Kích thước gốc"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "Xem trước"
+  },
+  "preview_summary": {
+    "message": "Số trang: $1 · Số ảnh mỗi tờ: $2"
+  },
+  "preview_page_label": {
+    "message": "Trang $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG nối các trang từ trái sang phải thành một tệp, có đường màu xám giữa các ảnh. PDF lưu từng trang riêng, không có đường kẻ."
+  },
+  "preview_note_vertical": {
+    "message": "PNG nối các trang từ trên xuống dưới thành một tệp, có đường màu xám giữa các ảnh. PDF lưu từng trang riêng, không có đường kẻ."
+  },
+  "preview_note_original": {
+    "message": "Đây là bản xem trước PNG. PNG có đường màu xám giữa các ảnh. PDF lưu mỗi ảnh một trang, không có đường kẻ."
+  },
+  "direction_horizontal": {
+    "message": "Tự động: cạnh nhau (trái → phải)"
+  },
+  "direction_vertical": {
+    "message": "Tự động: xếp chồng (trên → dưới)"
+  },
+  "save_hint": {
+    "message": "Hãy chọn ít nhất 2 ảnh để lưu."
+  },
+  "save_png": {
+    "message": "Lưu PNG"
+  },
+  "save_pdf": {
+    "message": "Lưu PDF"
+  },
+  "share": {
+    "message": "Chia sẻ"
+  },
+  "drop_overlay": {
+    "message": "Thả vào đây để thêm vào danh sách"
+  },
+  "progress_hint": {
+    "message": "Ảnh lớn có thể mất vài chục giây."
+  },
+  "progress_keep_tab": {
+    "message": "Đừng đóng thẻ này cho đến khi hoàn tất."
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "share_format_title": {
+    "message": "Bạn muốn chia sẻ ở định dạng nào?"
+  },
+  "share_as_png": {
+    "message": "Chia sẻ dạng PNG"
+  },
+  "share_as_pdf": {
+    "message": "Chia sẻ dạng PDF"
+  },
+  "share_png": {
+    "message": "Chia sẻ PNG"
+  },
+  "share_pdf": {
+    "message": "Chia sẻ PDF"
+  },
+  "share_title": {
+    "message": "Đã tạo tệp"
+  },
+  "share_system": {
+    "message": "Chia sẻ"
+  },
+  "share_copy": {
+    "message": "Sao chép ảnh"
+  },
+  "share_mail": {
+    "message": "Soạn email"
+  },
+  "share_download": {
+    "message": "Tải xuống"
+  },
+  "share_unavailable": {
+    "message": "Chrome trên máy tính này không hỗ trợ cửa sổ chia sẻ tệp. Hãy tải xuống hoặc sao chép rồi gửi."
+  },
+  "share_note": {
+    "message": "Trên máy tính, bạn không thể gửi trực tiếp đến KakaoTalk hoặc tin nhắn SMS. Nếu ứng dụng có trong cửa sổ chia sẻ của hệ điều hành mở bằng \"Chia sẻ\", bạn có thể chọn ở đó. Sau khi \"Sao chép ảnh\", bạn có thể dán PNG vào cuộc trò chuyện KakaoTalk trên máy tính. \"Soạn email\" sẽ tải tệp xuống và mở ứng dụng email; bạn cần tự đính kèm tệp."
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "crop_title": {
+    "message": "Chỉnh sửa vùng"
+  },
+  "crop_loading": {
+    "message": "Đang mở ảnh…"
+  },
+  "crop_image_alt": {
+    "message": "Ảnh cần chỉnh sửa"
+  },
+  "crop_reset": {
+    "message": "Chọn toàn bộ"
+  },
+  "crop_apply": {
+    "message": "Áp dụng"
+  },
+  "history_empty": {
+    "message": "Chưa lưu lần nào."
+  },
+  "snack_max_images": {
+    "message": "Bạn có thể thêm tối đa $1 ảnh."
+  },
+  "snack_unsupported": {
+    "message": "Số tệp bị loại vì định dạng không được hỗ trợ: $1"
+  },
+  "snack_over_limit": {
+    "message": "Bạn có thể thêm tối đa $1 ảnh nên chỉ thêm được $2 ảnh."
+  },
+  "clear_confirm": {
+    "message": "Bỏ tất cả ảnh đã chọn khỏi danh sách?\nTệp gốc không bị xóa."
+  },
+  "crop_open_failed_title": {
+    "message": "Không thể mở ảnh"
+  },
+  "crop_open_failed_message": {
+    "message": "Hãy chọn lại ảnh."
+  },
+  "snack_saved": {
+    "message": "Đã lưu bằng trình tải xuống của trình duyệt: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Đã hủy chia sẻ."
+  },
+  "snack_save_cancelled": {
+    "message": "Đã hủy lưu."
+  },
+  "alert_share_failed_title": {
+    "message": "Không thể tạo tệp"
+  },
+  "alert_save_failed_title": {
+    "message": "Không thể lưu"
+  },
+  "crashed_title": {
+    "message": "Lần lưu trước chưa hoàn tất"
+  },
+  "crashed_message": {
+    "message": "Lần lưu trước đã dừng giữa chừng. Hãy giữ ứng dụng mở cho đến khi lưu xong. Nếu vẫn tiếp diễn, hãy dùng ít ảnh hơn."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 ảnh"
+  },
+  "history_rate": {
+    "message": "Tỷ lệ thành công $1 ngày qua: $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "Không có lần lưu nào trong $1 ngày qua."
+  },
+  "status_running": {
+    "message": "Đang xử lý"
+  },
+  "status_success": {
+    "message": "Thành công"
+  },
+  "status_failed": {
+    "message": "Thất bại"
+  },
+  "status_cancelled": {
+    "message": "Đã hủy"
+  },
+  "status_crashed": {
+    "message": "Dừng bất thường"
+  },
+  "error_unsupported_format": {
+    "message": "Có ảnh ở định dạng không được hỗ trợ."
+  },
+  "error_unsupported_format_n": {
+    "message": "Ảnh số $1 có định dạng không được hỗ trợ."
+  },
+  "error_corrupt_file": {
+    "message": "Có tệp ảnh bị hỏng."
+  },
+  "error_corrupt_file_n": {
+    "message": "Tệp của ảnh số $1 bị hỏng."
+  },
+  "error_source_unavailable": {
+    "message": "Không thể mở ảnh. Hãy chọn lại."
+  },
+  "error_source_unavailable_n": {
+    "message": "Không thể mở ảnh số $1. Hãy chọn lại."
+  },
+  "error_out_of_space": {
+    "message": "Không đủ dung lượng lưu trữ."
+  },
+  "error_output_too_large": {
+    "message": "Tệp kết quả quá lớn. Hãy dùng ít ảnh hơn."
+  },
+  "error_out_of_memory": {
+    "message": "Không đủ bộ nhớ. Hãy dùng ít ảnh hơn."
+  },
+  "error_unknown": {
+    "message": "Đã xảy ra lỗi không xác định."
+  },
+  "item_cropped": {
+    "message": "Đã chỉnh vùng"
+  },
+  "item_crop_label": {
+    "message": "Chỉnh sửa vùng của mục $1"
+  },
+  "item_remove_title": {
+    "message": "Bỏ khỏi danh sách"
+  },
+  "item_remove_label": {
+    "message": "Bỏ mục $1 khỏi danh sách"
+  },
+  "item_drag_title": {
+    "message": "Kéo để đổi thứ tự"
+  },
+  "item_drag_label": {
+    "message": "Đổi thứ tự mục $1. Dùng phím mũi tên lên và xuống để di chuyển"
+  },
+  "progress_cancelling": {
+    "message": "Đang hủy…"
+  },
+  "progress_images": {
+    "message": "Đang xử lý ảnh $1/$2"
+  },
+  "progress_building": {
+    "message": "Đang tạo tệp"
+  },
+  "copy_png_only": {
+    "message": "Chỉ có thể sao chép PNG dưới dạng ảnh."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "Vui lòng đính kèm tệp bạn vừa tải xuống ($1) vào email này."
+  },
+  "snack_share_failed": {
+    "message": "Không thể mở cửa sổ chia sẻ. Hãy tải tệp xuống rồi gửi."
+  },
+  "snack_copied": {
+    "message": "Đã sao chép ảnh. Bạn có thể dán vào KakaoTalk hoặc email."
+  },
+  "snack_copy_failed": {
+    "message": "Không thể sao chép ảnh. Hãy tải xuống rồi gửi."
+  },
+  "snack_mail": {
+    "message": "Đã tải tệp xuống. Vui lòng đính kèm $1 vào email."
+  },
+  "save_location_default": {
+    "message": "Thư mục lưu: thư mục tải xuống của trình duyệt"
+  },
+  "save_location_custom": {
+    "message": "Thư mục lưu: $1"
+  },
+  "save_privacy_note": {
+    "message": "Tệp không bao giờ rời khỏi máy tính này."
+  },
+  "change_folder": {
+    "message": "Thay đổi"
+  },
+  "folder_dialog_title": {
+    "message": "Đổi thư mục lưu"
+  },
+  "folder_use_default": {
+    "message": "Dùng thư mục mặc định"
+  },
+  "folder_pick": {
+    "message": "Chọn thư mục khác"
+  },
+  "progress_saving": {
+    "message": "Đang lưu"
+  },
+  "snack_saved_folder": {
+    "message": "Đã lưu vào $1: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Không thể truy cập thư mục lưu. Vui lòng chọn lại thư mục."
+  },
+  "folder_pick_failed": {
+    "message": "Không thể chọn thư mục. Vui lòng thử lại."
+  }
+}

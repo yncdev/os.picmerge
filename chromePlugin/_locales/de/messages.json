@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Fügt mehrere Bilder und PDFs zu einer PNG- oder PDF-Datei zusammen. Die Verarbeitung erfolgt nur auf diesem PC."
+  },
+  "ext_action_title": {
+    "message": "Pic Merge öffnen"
+  },
+  "app_subtitle": {
+    "message": "Bilder zusammenfügen"
+  },
+  "html_lang": {
+    "message": "de"
+  },
+  "history_title": {
+    "message": "Letzter Verlauf"
+  },
+  "add_progress_label": {
+    "message": "Dateien werden geladen"
+  },
+  "list_panel_label": {
+    "message": "Auswahlliste"
+  },
+  "list_count": {
+    "message": "Ausgewählte Bilder $1/$2"
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "clear": {
+    "message": "Leeren"
+  },
+  "empty_title": {
+    "message": "Wählen Sie mindestens 2 Bilder zum Zusammenfügen aus"
+  },
+  "empty_text": {
+    "message": "Die Anordnungsrichtung wird automatisch gewählt."
+  },
+  "pick_files": {
+    "message": "Bilder oder PDFs auswählen"
+  },
+  "drop_hint": {
+    "message": "Sie können JPEG-, PNG-, WebP- und PDF-Dateien auch auf diese Seite ziehen."
+  },
+  "output_panel_label": {
+    "message": "Ausgabeeinstellungen und Vorschau"
+  },
+  "setting_paper": {
+    "message": "Papier"
+  },
+  "setting_orientation": {
+    "message": "Ausrichtung"
+  },
+  "orientation_portrait": {
+    "message": "Hochformat"
+  },
+  "orientation_landscape": {
+    "message": "Querformat"
+  },
+  "setting_per_sheet": {
+    "message": "Bilder pro Blatt"
+  },
+  "setting_image_size": {
+    "message": "Bildgröße"
+  },
+  "setting_padding": {
+    "message": "Rand"
+  },
+  "setting_color": {
+    "message": "Farbe"
+  },
+  "color_color": {
+    "message": "Farbe"
+  },
+  "color_gray": {
+    "message": "Graustufen"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Originalgröße"
+  },
+  "percent_value": {
+    "message": "$1 %"
+  },
+  "preview_label": {
+    "message": "Vorschau"
+  },
+  "preview_summary": {
+    "message": "Seiten: $1 · Bilder pro Blatt: $2"
+  },
+  "preview_page_label": {
+    "message": "Seite $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG fügt die Seiten von links nach rechts zu einer Datei zusammen, mit einer grauen Linie zwischen den Bildern. PDF speichert jede Seite einzeln, ohne Linien."
+  },
+  "preview_note_vertical": {
+    "message": "PNG fügt die Seiten von oben nach unten zu einer Datei zusammen, mit einer grauen Linie zwischen den Bildern. PDF speichert jede Seite einzeln, ohne Linien."
+  },
+  "preview_note_original": {
+    "message": "Dies ist die PNG-Vorschau. PNG hat eine graue Linie zwischen den Bildern. PDF speichert pro Bild eine Seite, ohne Linien."
+  },
+  "direction_horizontal": {
+    "message": "Automatisch: nebeneinander (links → rechts)"
+  },
+  "direction_vertical": {
+    "message": "Automatisch: übereinander (oben → unten)"
+  },
+  "save_hint": {
+    "message": "Wählen Sie zum Speichern mindestens 2 Bilder aus."
+  },
+  "save_png": {
+    "message": "PNG speichern"
+  },
+  "save_pdf": {
+    "message": "PDF speichern"
+  },
+  "share": {
+    "message": "Teilen"
+  },
+  "drop_overlay": {
+    "message": "Hier ablegen, um zur Liste hinzuzufügen"
+  },
+  "progress_hint": {
+    "message": "Große Bilder können mehrere Dutzend Sekunden dauern."
+  },
+  "progress_keep_tab": {
+    "message": "Lassen Sie diesen Tab geöffnet, bis der Vorgang abgeschlossen ist."
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "share_format_title": {
+    "message": "In welchem Format möchten Sie teilen?"
+  },
+  "share_as_png": {
+    "message": "Als PNG teilen"
+  },
+  "share_as_pdf": {
+    "message": "Als PDF teilen"
+  },
+  "share_png": {
+    "message": "PNG teilen"
+  },
+  "share_pdf": {
+    "message": "PDF teilen"
+  },
+  "share_title": {
+    "message": "Datei erstellt"
+  },
+  "share_system": {
+    "message": "Teilen"
+  },
+  "share_copy": {
+    "message": "Bild kopieren"
+  },
+  "share_mail": {
+    "message": "E-Mail verfassen"
+  },
+  "share_download": {
+    "message": "Herunterladen"
+  },
+  "share_unavailable": {
+    "message": "Chrome auf diesem PC unterstützt das Fenster zum Teilen von Dateien nicht. Laden Sie die Datei herunter oder kopieren Sie sie und senden Sie sie dann."
+  },
+  "share_note": {
+    "message": "Vom PC aus können Sie nicht direkt an KakaoTalk oder per SMS senden. Wenn die App im Teilen-Fenster des Betriebssystems erscheint, das sich über „Teilen“ öffnet, können Sie sie dort auswählen. Nach „Bild kopieren“ lässt sich ein PNG in einen KakaoTalk-Chat am PC einfügen. „E-Mail verfassen“ lädt die Datei herunter und öffnet Ihre Mail-App; den Anhang fügen Sie selbst hinzu."
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "crop_title": {
+    "message": "Bereich bearbeiten"
+  },
+  "crop_loading": {
+    "message": "Bild wird geöffnet…"
+  },
+  "crop_image_alt": {
+    "message": "Zu bearbeitendes Bild"
+  },
+  "crop_reset": {
+    "message": "Alles auswählen"
+  },
+  "crop_apply": {
+    "message": "Anwenden"
+  },
+  "history_empty": {
+    "message": "Noch nichts gespeichert."
+  },
+  "snack_max_images": {
+    "message": "Sie können bis zu $1 Bilder hinzufügen."
+  },
+  "snack_unsupported": {
+    "message": "Wegen eines nicht unterstützten Formats ausgeschlossene Dateien: $1"
+  },
+  "snack_over_limit": {
+    "message": "Sie können bis zu $1 Bilder hinzufügen. Hinzugefügt wurden: $2."
+  },
+  "clear_confirm": {
+    "message": "Alle ausgewählten Bilder aus der Liste entfernen?\nDie Originaldateien werden nicht gelöscht."
+  },
+  "crop_open_failed_title": {
+    "message": "Bild kann nicht geöffnet werden"
+  },
+  "crop_open_failed_message": {
+    "message": "Bitte wählen Sie das Bild erneut aus."
+  },
+  "snack_saved": {
+    "message": "Über den Browser-Download gespeichert: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Teilen abgebrochen."
+  },
+  "snack_save_cancelled": {
+    "message": "Speichern abgebrochen."
+  },
+  "alert_share_failed_title": {
+    "message": "Datei konnte nicht erstellt werden"
+  },
+  "alert_save_failed_title": {
+    "message": "Speichern fehlgeschlagen"
+  },
+  "crashed_title": {
+    "message": "Das vorherige Speichern wurde nicht abgeschlossen"
+  },
+  "crashed_message": {
+    "message": "Das vorherige Speichern wurde unterbrochen. Lassen Sie die App geöffnet, bis das Speichern abgeschlossen ist. Falls es erneut auftritt, verwenden Sie weniger Bilder."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 Bilder"
+  },
+  "history_rate": {
+    "message": "Erfolgsquote, letzte $1 Tage: $2 % ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "Keine Speichervorgänge in den letzten $1 Tagen."
+  },
+  "status_running": {
+    "message": "Läuft"
+  },
+  "status_success": {
+    "message": "Erfolgreich"
+  },
+  "status_failed": {
+    "message": "Fehlgeschlagen"
+  },
+  "status_cancelled": {
+    "message": "Abgebrochen"
+  },
+  "status_crashed": {
+    "message": "Abgestürzt"
+  },
+  "error_unsupported_format": {
+    "message": "Ein Bild hat ein nicht unterstütztes Format."
+  },
+  "error_unsupported_format_n": {
+    "message": "Bild $1 hat ein nicht unterstütztes Format."
+  },
+  "error_corrupt_file": {
+    "message": "Eine Bilddatei ist beschädigt."
+  },
+  "error_corrupt_file_n": {
+    "message": "Die Datei von Bild $1 ist beschädigt."
+  },
+  "error_source_unavailable": {
+    "message": "Ein Bild kann nicht geöffnet werden. Bitte wählen Sie es erneut aus."
+  },
+  "error_source_unavailable_n": {
+    "message": "Bild $1 kann nicht geöffnet werden. Bitte wählen Sie es erneut aus."
+  },
+  "error_out_of_space": {
+    "message": "Nicht genügend Speicherplatz."
+  },
+  "error_output_too_large": {
+    "message": "Die Ergebnisdatei ist zu groß. Verwenden Sie weniger Bilder."
+  },
+  "error_out_of_memory": {
+    "message": "Nicht genügend Arbeitsspeicher. Verwenden Sie weniger Bilder."
+  },
+  "error_unknown": {
+    "message": "Ein unbekannter Fehler ist aufgetreten."
+  },
+  "item_cropped": {
+    "message": "Bereich bearbeitet"
+  },
+  "item_crop_label": {
+    "message": "Bereich von Element $1 bearbeiten"
+  },
+  "item_remove_title": {
+    "message": "Aus der Liste entfernen"
+  },
+  "item_remove_label": {
+    "message": "Element $1 aus der Liste entfernen"
+  },
+  "item_drag_title": {
+    "message": "Zum Umsortieren ziehen"
+  },
+  "item_drag_label": {
+    "message": "Element $1 umsortieren. Mit den Pfeiltasten nach oben und unten verschieben"
+  },
+  "progress_cancelling": {
+    "message": "Wird abgebrochen…"
+  },
+  "progress_images": {
+    "message": "Bilder werden verarbeitet $1/$2"
+  },
+  "progress_building": {
+    "message": "Datei wird erstellt"
+  },
+  "copy_png_only": {
+    "message": "Nur PNG kann als Bild kopiert werden."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "Bitte hängen Sie die gerade heruntergeladene Datei ($1) an diese E-Mail an."
+  },
+  "snack_share_failed": {
+    "message": "Das Teilen-Fenster kann nicht geöffnet werden. Laden Sie die Datei herunter und senden Sie sie dann."
+  },
+  "snack_copied": {
+    "message": "Bild kopiert. Sie können es in KakaoTalk oder eine E-Mail einfügen."
+  },
+  "snack_copy_failed": {
+    "message": "Das Bild konnte nicht kopiert werden. Laden Sie es herunter und senden Sie es dann."
+  },
+  "snack_mail": {
+    "message": "Datei heruntergeladen. Bitte hängen Sie $1 an die E-Mail an."
+  },
+  "save_location_default": {
+    "message": "Ordner: Browser-Downloads"
+  },
+  "save_location_custom": {
+    "message": "Ordner: $1"
+  },
+  "save_privacy_note": {
+    "message": "Dateien verlassen diesen PC nie."
+  },
+  "change_folder": {
+    "message": "Ändern"
+  },
+  "folder_dialog_title": {
+    "message": "Speicherordner ändern"
+  },
+  "folder_use_default": {
+    "message": "Standardordner verwenden"
+  },
+  "folder_pick": {
+    "message": "Anderen Ordner auswählen"
+  },
+  "progress_saving": {
+    "message": "Wird gespeichert"
+  },
+  "snack_saved_folder": {
+    "message": "Gespeichert in $1: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Auf den Speicherordner kann nicht zugegriffen werden. Bitte wählen Sie erneut einen Ordner aus."
+  },
+  "folder_pick_failed": {
+    "message": "Der Ordner konnte nicht ausgewählt werden. Bitte versuchen Sie es erneut."
+  }
+}

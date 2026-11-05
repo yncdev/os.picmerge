@@ -1,0 +1,559 @@
+{
+  "@@locale": "en",
+  "appName": "Pic Merge",
+  "@appName": {
+    "description": "Program name. \"Pic Merge\" in every language."
+  },
+  "appSubtitle": "",
+  "@appSubtitle": {
+    "description": "Small subtitle next to the program name in the title bar. Empty means no subtitle."
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "Dialog confirmation button."
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button."
+  },
+  "clearList": "Clear",
+  "@clearList": {
+    "description": "Button that empties the selection list."
+  },
+  "recentHistory": "Recent history",
+  "@recentHistory": {
+    "description": "Recent history sheet title and its app bar icon tooltip."
+  },
+  "errorLoadPhotos": "Couldn't load the photos. Please try again.",
+  "@errorLoadPhotos": {
+    "description": "The photo picker failed."
+  },
+  "errorCameraUnavailable": "The camera isn't available.",
+  "@errorCameraUnavailable": {
+    "description": "No camera, or the camera was refused."
+  },
+  "errorLoadPdfs": "Couldn't load the PDF. Please try again.",
+  "@errorLoadPdfs": {
+    "description": "The document picker failed."
+  },
+  "maxImagesReached": "You can add up to {max, plural, one{{max} image} other{{max} images}}.",
+  "@maxImagesReached": {
+    "description": "The list is already full.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "unsupportedFilesExcluded": "{count, plural, one{{count} file was left out because its format isn't supported.} other{{count} files were left out because their format isn't supported.}}",
+  "@unsupportedFilesExcluded": {
+    "description": "Files left out of the list while picking.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overLimitAdded": "You can add up to {max, plural, one{{max} image} other{{max} images}}, so only {added} {added, plural, one{was} other{were}} added.",
+  "@overLimitAdded": {
+    "description": "More files were picked than the list can hold.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      },
+      "added": {
+        "type": "int"
+      }
+    }
+  },
+  "clearConfirm": "Remove all selected images from the list?\nThe original photos will not be deleted.",
+  "@clearConfirm": {
+    "description": "Asked before emptying the list. Line break between the two sentences."
+  },
+  "folderDialogTitle": "Choose a save folder",
+  "@folderDialogTitle": {
+    "description": "Title of the dialog that changes the save folder."
+  },
+  "folderDialogBodyAndroid": "Choose a folder such as Documents, or a newly created one.\n\nThe top level of internal storage, the Download folder itself and the Android/data folder can't be chosen.",
+  "@folderDialogBodyAndroid": {
+    "description": "Body of that dialog on Android. Keep the folder names Documents, Download and Android/data as they are."
+  },
+  "pickFolder": "Choose folder",
+  "@pickFolder": {
+    "description": "Button that opens the system folder picker when no folder is in use yet."
+  },
+  "useDefaultFolder": "Use default folder ({name})",
+  "@useDefaultFolder": {
+    "description": "Folder dialog button that goes back to the default save folder. name is the folder name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pickOtherFolder": "Choose another folder",
+  "@pickOtherFolder": {
+    "description": "Folder dialog button that opens the system folder picker when a folder is already in use."
+  },
+  "errorPickFolder": "Couldn't choose a folder. Please try again.",
+  "@errorPickFolder": {
+    "description": "The system folder picker failed."
+  },
+  "savedTo": "Saved: {folder}/{file}",
+  "@savedTo": {
+    "description": "Snack bar after saving.",
+    "placeholders": {
+      "folder": {
+        "type": "String"
+      },
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "saveCancelled": "Save cancelled.",
+  "@saveCancelled": {
+    "description": "Snack bar after the user cancelled a save."
+  },
+  "saveFailedTitle": "Couldn't save",
+  "@saveFailedTitle": {
+    "description": "Error dialog title for a save."
+  },
+  "shareFormatPrompt": "Choose the file format to send by email, messaging apps and more.",
+  "@shareFormatPrompt": {
+    "description": "Heading of the sheet that asks PNG or PDF before sharing."
+  },
+  "shareAs": "Share as {format}",
+  "@shareAs": {
+    "description": "List tile in that sheet. format is PNG or PDF.",
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCancelled": "Sharing cancelled.",
+  "@shareCancelled": {
+    "description": "Snack bar after the user cancelled sharing."
+  },
+  "shareFailedTitle": "Couldn't share",
+  "@shareFailedTitle": {
+    "description": "Error dialog title for sharing."
+  },
+  "crashTitle": "The last save didn't finish",
+  "@crashTitle": {
+    "description": "Dialog after the previous save ended abnormally."
+  },
+  "crashBody": "The last save stopped partway. Keep the app open until saving finishes, and if this keeps happening, use fewer images.",
+  "@crashBody": {
+    "description": "Body of that dialog."
+  },
+  "emptyTitle": "Choose at least {min, plural, one{{min} image or PDF} other{{min} images or PDFs}} to merge",
+  "@emptyTitle": {
+    "description": "Main message of the empty screen.",
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyHint": "The layout direction is chosen automatically.",
+  "@emptyHint": {
+    "description": "Second line of the empty screen."
+  },
+  "pickImages": "Choose images",
+  "@pickImages": {
+    "description": "Empty screen button that opens the photo picker."
+  },
+  "pickPdf": "Choose PDF",
+  "@pickPdf": {
+    "description": "Empty screen button that opens the document picker."
+  },
+  "takePhoto": "Take a photo",
+  "@takePhoto": {
+    "description": "Empty screen button that opens the camera."
+  },
+  "autoDirectionVertical": "Auto: vertical layout (top → bottom)",
+  "@autoDirectionVertical": {
+    "description": "Preview heading for original size: images stack from top to bottom. Automatic, not selectable."
+  },
+  "autoDirectionHorizontal": "Auto: horizontal layout (left → right)",
+  "@autoDirectionHorizontal": {
+    "description": "Preview heading for original size: images run from left to right. Automatic, not selectable."
+  },
+  "previewNoteOriginal": "This is the PNG preview. The PNG has gray lines between images. The PDF saves one page per item, with no lines.",
+  "@previewNoteOriginal": {
+    "description": "Preview note for original size."
+  },
+  "previewSummary": "{pages, plural, one{{pages} page} other{{pages} pages}} · {perPaper} per sheet",
+  "@previewSummary": {
+    "description": "Preview heading when a paper is chosen.",
+    "placeholders": {
+      "pages": {
+        "type": "int"
+      },
+      "perPaper": {
+        "type": "int"
+      }
+    }
+  },
+  "previewNoteHorizontal": "The PNG joins pages side by side, with gray lines between images. The PDF saves each page separately, with no lines.",
+  "@previewNoteHorizontal": {
+    "description": "Preview note when PNG joins pages side by side."
+  },
+  "previewNoteVertical": "The PNG joins pages from top to bottom, with gray lines between images. The PDF saves each page separately, with no lines.",
+  "@previewNoteVertical": {
+    "description": "Preview note when PNG joins pages top to bottom."
+  },
+  "paperOriginal": "Original size",
+  "@paperOriginal": {
+    "description": "Paper choice meaning no paper, keep the image size."
+  },
+  "orientationPortrait": "Portrait",
+  "@orientationPortrait": {
+    "description": "Paper orientation. Short label on a segmented button."
+  },
+  "orientationLandscape": "Landscape",
+  "@orientationLandscape": {
+    "description": "Paper orientation. Short label on a segmented button."
+  },
+  "colorMode": "Color",
+  "@colorMode": {
+    "description": "Output in color. Short label on a segmented button."
+  },
+  "grayscaleMode": "B&W",
+  "@grayscaleMode": {
+    "description": "Output in grayscale. Short label on a segmented button."
+  },
+  "imagesPerPaper": "Images per sheet",
+  "@imagesPerPaper": {
+    "description": "Setting label: how many images go on one sheet of paper."
+  },
+  "imageSize": "Image size",
+  "@imageSize": {
+    "description": "Setting label: image scale within its cell, 100%, 50% or 30%."
+  },
+  "margin": "Margin",
+  "@margin": {
+    "description": "Setting label: size of the white margin around pages and images, 0%, 3%, 5% or 10%. Keep it short."
+  },
+  "selectedCount": "Selected {count}/{max}",
+  "@selectedCount": {
+    "description": "List header, for example 3/30.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "addItems": "Add",
+  "@addItems": {
+    "description": "List header button that opens the add menu."
+  },
+  "pickPhotos": "Choose photos",
+  "@pickPhotos": {
+    "description": "Add menu item."
+  },
+  "pickPdfFiles": "Choose PDF files",
+  "@pickPdfFiles": {
+    "description": "Add menu item."
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "List header button."
+  },
+  "folderNotChosen": "Save folder: chosen on first save",
+  "@folderNotChosen": {
+    "description": "Bottom bar on devices with no default folder (Android 9 and older) when none has been chosen yet."
+  },
+  "folderCurrent": "Save folder: {name}",
+  "@folderCurrent": {
+    "description": "Bottom bar with the current save folder name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "changeFolder": "Change",
+  "@changeFolder": {
+    "description": "Bottom bar link to choose another folder."
+  },
+  "needMinImages": "Choose at least {min, plural, one{{min} image} other{{min} images}} to save.",
+  "@needMinImages": {
+    "description": "Bottom bar hint when only one item is selected.",
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "saveAs": "Save {format}",
+  "@saveAs": {
+    "description": "Bottom bar button and progress title. format is PNG or PDF. Keep it short.",
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Bottom bar button, and the place shown for shared sessions in the history. Keep it short."
+  },
+  "shareTitle": "Share {format}",
+  "@shareTitle": {
+    "description": "Progress title while sharing. format is PNG or PDF.",
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "processingImages": "Processing images {current}/{total}",
+  "@processingImages": {
+    "description": "Progress text.",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "buildingFile": "Creating the file",
+  "@buildingFile": {
+    "description": "Progress text while encoding the file."
+  },
+  "openingShare": "Opening the share sheet",
+  "@openingShare": {
+    "description": "Progress text just before the share sheet opens."
+  },
+  "saving": "Saving",
+  "@saving": {
+    "description": "Progress text while copying to the save folder."
+  },
+  "cancelling": "Cancelling…",
+  "@cancelling": {
+    "description": "Progress text after tapping cancel."
+  },
+  "mayTakeLong": "Large images can take tens of seconds.",
+  "@mayTakeLong": {
+    "description": "Progress hint while encoding."
+  },
+  "keepAppOpen": "Keep the app open until this finishes.",
+  "@keepAppOpen": {
+    "description": "Progress hint."
+  },
+  "errorApplyCrop": "Couldn't apply the crop. Please try again.",
+  "@errorApplyCrop": {
+    "description": "Crop could not be applied."
+  },
+  "cropTitle": "Crop",
+  "@cropTitle": {
+    "description": "Crop screen title and the crop button tooltip."
+  },
+  "cropApply": "Apply",
+  "@cropApply": {
+    "description": "Crop screen confirm button."
+  },
+  "cropSelectAll": "Select all",
+  "@cropSelectAll": {
+    "description": "Crop screen button that resets to the whole image."
+  },
+  "errorOpenImage": "Couldn't open the image.",
+  "@errorOpenImage": {
+    "description": "Crop screen could not load the image."
+  },
+  "croppedSize": "{width}×{height} (cropped)",
+  "@croppedSize": {
+    "description": "List item subtitle after cropping. width and height are pixels.",
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "removeFromList": "Remove from list",
+  "@removeFromList": {
+    "description": "List item button tooltip. The source file is not deleted."
+  },
+  "errorLoadHistory": "Couldn't load the history.",
+  "@errorLoadHistory": {
+    "description": "The history could not be read."
+  },
+  "historyRateEmpty": "No saves in the last {days, plural, one{{days} day} other{{days} days}}.",
+  "@historyRateEmpty": {
+    "description": "History heading when no sessions are in the period.",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "historyRate": "Success rate in the last {days, plural, one{{days} day} other{{days} days}}: {percent}% ({success}/{total})",
+  "@historyRate": {
+    "description": "History heading with the success rate.",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "success": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmpty": "You haven't saved anything yet.",
+  "@historyEmpty": {
+    "description": "History with no sessions at all."
+  },
+  "imageCount": "{count, plural, one{{count} image} other{{count} images}}",
+  "@imageCount": {
+    "description": "Number of images in a history row.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statusRunning": "In progress",
+  "@statusRunning": {
+    "description": "Session status."
+  },
+  "statusSuccess": "Succeeded",
+  "@statusSuccess": {
+    "description": "Session status."
+  },
+  "statusFailed": "Failed",
+  "@statusFailed": {
+    "description": "Session status."
+  },
+  "statusCancelled": "Cancelled",
+  "@statusCancelled": {
+    "description": "Session status."
+  },
+  "statusCrashed": "Ended abnormally",
+  "@statusCrashed": {
+    "description": "Session status: the app ended during a save."
+  },
+  "errorUnsupportedFormat": "There is an image in an unsupported format.",
+  "@errorUnsupportedFormat": {
+    "description": "Error unsupported_format when the image number is unknown."
+  },
+  "errorUnsupportedFormatAt": "Image {n} is in an unsupported format.",
+  "@errorUnsupportedFormatAt": {
+    "description": "Error unsupported_format. n is the position in the list, from 1.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "errorCorruptFile": "There is a damaged image file.",
+  "@errorCorruptFile": {
+    "description": "Error corrupt_file when the image number is unknown."
+  },
+  "errorCorruptFileAt": "The file for image {n} is damaged.",
+  "@errorCorruptFileAt": {
+    "description": "Error corrupt_file. n is the position in the list, from 1.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "errorSourceUnavailable": "Couldn't open an image. Please choose it again.",
+  "@errorSourceUnavailable": {
+    "description": "Error source_unavailable when the image number is unknown."
+  },
+  "errorSourceUnavailableAt": "Couldn't open image {n}. Please choose it again.",
+  "@errorSourceUnavailableAt": {
+    "description": "Error source_unavailable. n is the position in the list, from 1.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "errorOutOfSpace": "There is not enough storage space.",
+  "@errorOutOfSpace": {
+    "description": "Error out_of_space."
+  },
+  "errorFolderUnavailable": "Can't access the save folder. Please choose a folder again.",
+  "@errorFolderUnavailable": {
+    "description": "Error folder_unavailable."
+  },
+  "errorOutputTooLarge": "The result file is too large. Please use fewer images.",
+  "@errorOutputTooLarge": {
+    "description": "Error output_too_large."
+  },
+  "errorOutOfMemory": "There is not enough memory. Please use fewer images.",
+  "@errorOutOfMemory": {
+    "description": "Error out_of_memory."
+  },
+  "errorUnknown": "An unknown error occurred.",
+  "@errorUnknown": {
+    "description": "Error unknown."
+  },
+  "aboutTitle": "About",
+  "@aboutTitle": {
+    "description": "Menu item and page title: information about the program."
+  },
+  "sendFeedback": "Send feedback",
+  "@sendFeedback": {
+    "description": "Menu item that opens the mail app. The Terms name this item, so keep both the same."
+  },
+  "termsTitle": "Terms of Use",
+  "@termsTitle": {
+    "description": "Terms of use page title and the row that opens it."
+  },
+  "version": "Version",
+  "@version": {
+    "description": "Label for the app version on the About page."
+  },
+  "noMailAppTitle": "Couldn't open a mail app",
+  "@noMailAppTitle": {
+    "description": "Dialog title when no mail app can open."
+  },
+  "noMailAppBody": "Please send your feedback to this address.",
+  "@noMailAppBody": {
+    "description": "Dialog body above the address when no mail app can open."
+  },
+  "copyAddress": "Copy address",
+  "@copyAddress": {
+    "description": "Button that copies the address."
+  },
+  "addressCopied": "Address copied.",
+  "@addressCopied": {
+    "description": "Snack bar after copying the address."
+  },
+  "termsBody": "Last updated: November 5, 2026\n\n1. Acceptance\nBy installing or using Pic Merge (the \"App\"), you agree to these Terms. If you do not agree, do not use the App.\n\n2. License\nThe App is open-source software released under the MIT License, and you may use it under that license. Third-party components keep their own licenses.\n\n3. Your responsibilities\nYou alone are responsible for the files you process, save and share with the App, for having the rights to use them, and for complying with applicable laws. Keep your own backups of important files.\n\n4. Your data\nThe App processes files on your device and does not send them to any server. If you use Send feedback, your device's mail app creates the message, and what you send is handled by your mail provider.\n\n5. No warranty\nThe App is provided \"AS IS\" and \"AS AVAILABLE\", without warranty of any kind, express or implied, including merchantability, fitness for a particular purpose and non-infringement. There is no guarantee that it will be error-free or uninterrupted, or that its results will be accurate.\n\n6. Limitation of liability\nTo the maximum extent permitted by applicable law, the authors, copyright holders and distributors are not liable for any claim, damages or other liability, including loss of data, loss of profits and indirect or consequential damages, arising from or connected with the App or its use.\n\n7. No obligation to support\nThe authors have no obligation to provide support, updates or maintenance or to reply to feedback, and may change or stop the App at any time.\n\n8. App stores and platforms\nIf you obtained the App through an app store, that store's terms also apply to your use of the App.\n\n9. Changes\nThese Terms may change. If you keep using the App after a change, you accept the change.\n\n10. Language\nTranslations are provided for convenience. If they differ, the English version prevails.\n\nContact: yncdev@gmail.com",
+  "@termsBody": {
+    "description": "Full terms of use. Translate faithfully: do not add, soften or reorder anything, and never add a sentence that makes the authors, copyright holders or distributors responsible or liable. Keep the numbering."
+  },
+  "privacyTitle": "Privacy Policy",
+  "@privacyTitle": {
+    "description": "Privacy policy page title and the row that opens it."
+  },
+  "openSourceLicenses": "Open-source licenses",
+  "@openSourceLicenses": {
+    "description": "Row that opens the list of open-source licenses."
+  },
+  "privacyBody": "Last updated: November 6, 2026\n\nThis policy covers Pic Merge for Android and iOS and the Pic Merge Chrome extension (the \"App\").\n\nWhat the App does with your files\nThe App reads the images and PDFs you choose and combines them into a single file on your device. Your files are never sent to a server, and the App has no account, advertising or analytics.\n\nWhat is stored, and where\nEverything below stays on your device or in your browser:\n\n- Files you save, in the folder you use: the default folder or one you choose.\n- Recent history: for each save, the time, format, number of items, the result file's name, size and dimensions, the save folder's name, the layout direction, and the result. The mobile app also keeps each item's name, pixel size and file size and the scale applied, and keeps all of this in a local database until the App is deleted. The extension keeps the last 50 saves in browser storage.\n- Your chosen save folder, if you pick one instead of the default.\n- Temporary files made while processing. They are deleted when processing ends, when you remove the item from the list, at your next share, or the next time you start the App.\n\nOriginal images and their paths are not kept in the App. The App does not collect, sell or share any of this data, and the developer cannot access it. Deleting the App removes its stored data, except files you saved to a folder outside the App.\n\nAndroid app backup is turned off for the App. On iOS, your device's own backup, such as iCloud Backup, may include the App's data and the files in its folder, depending on your device settings.\n\nPermissions\n- Android: no internet, storage or camera permission is requested. Files are chosen through system pickers and photos are taken with the system camera app.\n- iOS: the system asks for your permission the first time you use the camera.\n- Chrome extension: no permissions are declared. If you choose a save folder, your browser asks for access to that folder.\n\nSending feedback\nThe mobile app's Send feedback option opens your device's mail app with the address and subject filled in. The subject includes the app version, device model and OS version, and you can edit it. Nothing is sent unless you send it yourself. Your message is then handled by your mail provider, and the developer receives what you send.\n\nOther services\nIf you share a file, your device's share sheet or the app you choose handles it. If you obtained the App from an app store, that store's own privacy terms apply to the store.\n\nChanges\nThis policy may change. Changes are published in this document.\n\nContact\nyncdev@gmail.com",
+  "@privacyBody": {
+    "description": "Full privacy policy. Translate faithfully: do not add promises or anything that takes on responsibility. Keep the address."
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "複数の画像と PDF を 1 つにまとめ、PNG または PDF として保存・共有します。すべての処理はこの PC 内で行います。"
+  },
+  "ext_action_title": {
+    "message": "Pic Merge を開く"
+  },
+  "app_subtitle": {
+    "message": "画像結合"
+  },
+  "html_lang": {
+    "message": "ja"
+  },
+  "history_title": {
+    "message": "最近の履歴"
+  },
+  "add_progress_label": {
+    "message": "ファイルを読み込み中"
+  },
+  "list_panel_label": {
+    "message": "選択リスト"
+  },
+  "list_count": {
+    "message": "選択した画像 $1/$2"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "clear": {
+    "message": "クリア"
+  },
+  "empty_title": {
+    "message": "結合する画像を 2 枚以上選んでください"
+  },
+  "empty_text": {
+    "message": "配置の向きは自動で決まります。"
+  },
+  "pick_files": {
+    "message": "画像・PDF を選択"
+  },
+  "drop_hint": {
+    "message": "JPEG、PNG、WebP、PDF ファイルをこの画面にドロップすることもできます。"
+  },
+  "output_panel_label": {
+    "message": "出力設定とプレビュー"
+  },
+  "setting_paper": {
+    "message": "用紙"
+  },
+  "setting_orientation": {
+    "message": "用紙の向き"
+  },
+  "orientation_portrait": {
+    "message": "縦"
+  },
+  "orientation_landscape": {
+    "message": "横"
+  },
+  "setting_per_sheet": {
+    "message": "用紙あたりの画像数"
+  },
+  "setting_image_size": {
+    "message": "画像サイズ"
+  },
+  "setting_padding": {
+    "message": "余白"
+  },
+  "setting_color": {
+    "message": "色"
+  },
+  "color_color": {
+    "message": "カラー"
+  },
+  "color_gray": {
+    "message": "白黒"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "レター"
+  },
+  "paper_legal": {
+    "message": "リーガル"
+  },
+  "paper_original": {
+    "message": "元のサイズ"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "プレビュー"
+  },
+  "preview_summary": {
+    "message": "全 $1 ページ・用紙あたり $2 枚"
+  },
+  "preview_page_label": {
+    "message": "$1 ページ"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG はページを左から右へつなげて 1 つのファイルにし、画像の間に灰色の線を入れます。PDF はページごとに保存され、線は入りません。"
+  },
+  "preview_note_vertical": {
+    "message": "PNG はページを上から下へつなげて 1 つのファイルにし、画像の間に灰色の線を入れます。PDF はページごとに保存され、線は入りません。"
+  },
+  "preview_note_original": {
+    "message": "PNG のプレビューです。PNG では画像の間に灰色の線が入ります。PDF は画像ごとに 1 ページで保存され、線は入りません。"
+  },
+  "direction_horizontal": {
+    "message": "自動: 横に並べる (左 → 右)"
+  },
+  "direction_vertical": {
+    "message": "自動: 縦に並べる (上 → 下)"
+  },
+  "save_hint": {
+    "message": "保存するには 2 枚以上選んでください。"
+  },
+  "save_png": {
+    "message": "PNG を保存"
+  },
+  "save_pdf": {
+    "message": "PDF を保存"
+  },
+  "share": {
+    "message": "共有"
+  },
+  "drop_overlay": {
+    "message": "ここにドロップするとリストに追加します"
+  },
+  "progress_hint": {
+    "message": "画像が大きいと数十秒かかることがあります。"
+  },
+  "progress_keep_tab": {
+    "message": "完了するまでこのタブを閉じないでください。"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "share_format_title": {
+    "message": "どの形式で共有しますか?"
+  },
+  "share_as_png": {
+    "message": "PNG で共有"
+  },
+  "share_as_pdf": {
+    "message": "PDF で共有"
+  },
+  "share_png": {
+    "message": "PNG を共有"
+  },
+  "share_pdf": {
+    "message": "PDF を共有"
+  },
+  "share_title": {
+    "message": "ファイルを作成しました"
+  },
+  "share_system": {
+    "message": "共有する"
+  },
+  "share_copy": {
+    "message": "画像をコピー"
+  },
+  "share_mail": {
+    "message": "メールを作成"
+  },
+  "share_download": {
+    "message": "ダウンロード"
+  },
+  "share_unavailable": {
+    "message": "この PC の Chrome はファイル共有ウィンドウに対応していません。ダウンロードまたはコピーしてから送ってください。"
+  },
+  "share_note": {
+    "message": "PC からカカオトークやメッセージに直接送ることはできません。「共有する」で開く OS の共有ウィンドウにそのアプリがあれば選べます。PNG は「画像をコピー」のあと PC 版カカオトークのトークに貼り付けられます。「メールを作成」はファイルをダウンロードしてメールアプリを開く機能なので、添付はご自身で行ってください。"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "crop_title": {
+    "message": "範囲を編集"
+  },
+  "crop_loading": {
+    "message": "画像を開いています…"
+  },
+  "crop_image_alt": {
+    "message": "編集する画像"
+  },
+  "crop_reset": {
+    "message": "全体を選択"
+  },
+  "crop_apply": {
+    "message": "適用"
+  },
+  "history_empty": {
+    "message": "まだ保存したことがありません。"
+  },
+  "snack_max_images": {
+    "message": "追加できるのは最大 $1 枚です。"
+  },
+  "snack_unsupported": {
+    "message": "対応していない形式のため除外したファイル: $1 件"
+  },
+  "snack_over_limit": {
+    "message": "追加できるのは最大 $1 枚のため、$2 枚だけ追加しました。"
+  },
+  "clear_confirm": {
+    "message": "選択した画像をすべてリストから外しますか?\n元のファイルは削除されません。"
+  },
+  "crop_open_failed_title": {
+    "message": "画像を開けません"
+  },
+  "crop_open_failed_message": {
+    "message": "画像を選び直してください。"
+  },
+  "snack_saved": {
+    "message": "ブラウザのダウンロードに保存しました: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "共有をキャンセルしました。"
+  },
+  "snack_save_cancelled": {
+    "message": "保存をキャンセルしました。"
+  },
+  "alert_share_failed_title": {
+    "message": "ファイルを作成できませんでした"
+  },
+  "alert_save_failed_title": {
+    "message": "保存できませんでした"
+  },
+  "crashed_title": {
+    "message": "前回の保存が完了していません"
+  },
+  "crashed_message": {
+    "message": "前回の保存が途中で終了しました。保存が終わるまでアプリを開いたままにし、繰り返す場合は画像の数を減らしてください。"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 枚"
+  },
+  "history_rate": {
+    "message": "直近 $1 日の成功率 $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "直近 $1 日の保存履歴はありません。"
+  },
+  "status_running": {
+    "message": "処理中"
+  },
+  "status_success": {
+    "message": "成功"
+  },
+  "status_failed": {
+    "message": "失敗"
+  },
+  "status_cancelled": {
+    "message": "キャンセル"
+  },
+  "status_crashed": {
+    "message": "異常終了"
+  },
+  "error_unsupported_format": {
+    "message": "対応していない形式の画像があります。"
+  },
+  "error_unsupported_format_n": {
+    "message": "$1 番目の画像は対応していない形式です。"
+  },
+  "error_corrupt_file": {
+    "message": "破損した画像ファイルがあります。"
+  },
+  "error_corrupt_file_n": {
+    "message": "$1 番目の画像ファイルは破損しています。"
+  },
+  "error_source_unavailable": {
+    "message": "画像を開けません。選び直してください。"
+  },
+  "error_source_unavailable_n": {
+    "message": "$1 番目の画像を開けません。選び直してください。"
+  },
+  "error_out_of_space": {
+    "message": "保存容量が不足しています。"
+  },
+  "error_output_too_large": {
+    "message": "結果のファイルが大きすぎます。画像の数を減らしてください。"
+  },
+  "error_out_of_memory": {
+    "message": "メモリが不足しています。画像の数を減らしてください。"
+  },
+  "error_unknown": {
+    "message": "不明なエラーが発生しました。"
+  },
+  "item_cropped": {
+    "message": "範囲編集済み"
+  },
+  "item_crop_label": {
+    "message": "$1 番目の項目の範囲を編集"
+  },
+  "item_remove_title": {
+    "message": "リストから外す"
+  },
+  "item_remove_label": {
+    "message": "$1 番目の項目をリストから外す"
+  },
+  "item_drag_title": {
+    "message": "ドラッグして順序を変更"
+  },
+  "item_drag_label": {
+    "message": "$1 番目の項目の順序を変更。上下の矢印キーで移動します"
+  },
+  "progress_cancelling": {
+    "message": "キャンセルしています…"
+  },
+  "progress_images": {
+    "message": "画像を処理中 $1/$2"
+  },
+  "progress_building": {
+    "message": "ファイルを作成中"
+  },
+  "copy_png_only": {
+    "message": "画像のコピーは PNG のみ可能です。"
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "先ほどダウンロードしたファイル ($1) をこのメールに添付してください。"
+  },
+  "snack_share_failed": {
+    "message": "共有ウィンドウを開けません。ダウンロードしてから送ってください。"
+  },
+  "snack_copied": {
+    "message": "画像をコピーしました。カカオトークやメールに貼り付けられます。"
+  },
+  "snack_copy_failed": {
+    "message": "画像をコピーできませんでした。ダウンロードしてから送ってください。"
+  },
+  "snack_mail": {
+    "message": "ファイルをダウンロードしました。メールに $1 を添付してください。"
+  },
+  "save_location_default": {
+    "message": "保存先フォルダ: ブラウザのダウンロードフォルダ"
+  },
+  "save_location_custom": {
+    "message": "保存先フォルダ: $1"
+  },
+  "save_privacy_note": {
+    "message": "ファイルがこの PC の外に送られることはありません。"
+  },
+  "change_folder": {
+    "message": "変更"
+  },
+  "folder_dialog_title": {
+    "message": "保存先フォルダの変更"
+  },
+  "folder_use_default": {
+    "message": "既定のフォルダを使う"
+  },
+  "folder_pick": {
+    "message": "別のフォルダを選択"
+  },
+  "progress_saving": {
+    "message": "保存中"
+  },
+  "snack_saved_folder": {
+    "message": "$1 に保存しました: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "保存先フォルダにアクセスできません。フォルダを選び直してください。"
+  },
+  "folder_pick_failed": {
+    "message": "フォルダを選択できません。もう一度お試しください。"
+  }
+}

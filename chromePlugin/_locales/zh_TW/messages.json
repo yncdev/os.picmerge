@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "將多張圖片和 PDF 合併為一個檔案，儲存或分享為 PNG 或 PDF。所有處理都在這台電腦上完成。"
+  },
+  "ext_action_title": {
+    "message": "開啟 Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "圖片合併"
+  },
+  "html_lang": {
+    "message": "zh-TW"
+  },
+  "history_title": {
+    "message": "最近記錄"
+  },
+  "add_progress_label": {
+    "message": "正在載入檔案"
+  },
+  "list_panel_label": {
+    "message": "已選清單"
+  },
+  "list_count": {
+    "message": "已選圖片 $1/$2"
+  },
+  "add": {
+    "message": "新增"
+  },
+  "clear": {
+    "message": "清空"
+  },
+  "empty_title": {
+    "message": "請選擇至少 2 張要合併的圖片"
+  },
+  "empty_text": {
+    "message": "排列方向會自動決定。"
+  },
+  "pick_files": {
+    "message": "選擇圖片或 PDF"
+  },
+  "drop_hint": {
+    "message": "也可以將 JPEG、PNG、WebP、PDF 檔案拖放到此頁面。"
+  },
+  "output_panel_label": {
+    "message": "輸出設定與預覽"
+  },
+  "setting_paper": {
+    "message": "紙張"
+  },
+  "setting_orientation": {
+    "message": "紙張方向"
+  },
+  "orientation_portrait": {
+    "message": "直向"
+  },
+  "orientation_landscape": {
+    "message": "橫向"
+  },
+  "setting_per_sheet": {
+    "message": "每張紙的圖片數"
+  },
+  "setting_image_size": {
+    "message": "圖片大小"
+  },
+  "setting_padding": {
+    "message": "留白"
+  },
+  "setting_color": {
+    "message": "色彩"
+  },
+  "color_color": {
+    "message": "彩色"
+  },
+  "color_gray": {
+    "message": "黑白"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "原始大小"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "預覽"
+  },
+  "preview_summary": {
+    "message": "共 $1 頁 · 每張紙 $2 張"
+  },
+  "preview_page_label": {
+    "message": "第 $1 頁"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG 會將各頁從左到右連接成一個檔案，並在圖片之間加上灰色線條。PDF 依頁儲存，沒有線條。"
+  },
+  "preview_note_vertical": {
+    "message": "PNG 會將各頁從上到下連接成一個檔案，並在圖片之間加上灰色線條。PDF 依頁儲存，沒有線條。"
+  },
+  "preview_note_original": {
+    "message": "這是 PNG 預覽。PNG 的圖片之間有灰色線條。PDF 每張圖片儲存為一頁，沒有線條。"
+  },
+  "direction_horizontal": {
+    "message": "自動：橫向排列（左 → 右）"
+  },
+  "direction_vertical": {
+    "message": "自動：直向排列（上 → 下）"
+  },
+  "save_hint": {
+    "message": "至少選擇 2 張圖片才能儲存。"
+  },
+  "save_png": {
+    "message": "儲存 PNG"
+  },
+  "save_pdf": {
+    "message": "儲存 PDF"
+  },
+  "share": {
+    "message": "分享"
+  },
+  "drop_overlay": {
+    "message": "拖放到這裡即可新增到清單"
+  },
+  "progress_hint": {
+    "message": "圖片較大時可能需要數十秒。"
+  },
+  "progress_keep_tab": {
+    "message": "完成之前請不要關閉此分頁。"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "share_format_title": {
+    "message": "要以哪種格式分享？"
+  },
+  "share_as_png": {
+    "message": "以 PNG 分享"
+  },
+  "share_as_pdf": {
+    "message": "以 PDF 分享"
+  },
+  "share_png": {
+    "message": "分享 PNG"
+  },
+  "share_pdf": {
+    "message": "分享 PDF"
+  },
+  "share_title": {
+    "message": "已建立檔案"
+  },
+  "share_system": {
+    "message": "分享"
+  },
+  "share_copy": {
+    "message": "複製圖片"
+  },
+  "share_mail": {
+    "message": "撰寫郵件"
+  },
+  "share_download": {
+    "message": "下載"
+  },
+  "share_unavailable": {
+    "message": "這台電腦上的 Chrome 不支援檔案分享視窗。請下載或複製後再傳送。"
+  },
+  "share_note": {
+    "message": "在電腦上無法直接傳送到 KakaoTalk 或簡訊。如果按「分享」開啟的系統分享視窗中有該應用程式，可以在那裡選擇。PNG 在「複製圖片」後可以貼到電腦版 KakaoTalk 聊天視窗。「撰寫郵件」會下載檔案並開啟郵件應用程式，附件需要您自行加入。"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "crop_title": {
+    "message": "編輯區域"
+  },
+  "crop_loading": {
+    "message": "正在開啟圖片…"
+  },
+  "crop_image_alt": {
+    "message": "要編輯的圖片"
+  },
+  "crop_reset": {
+    "message": "全選"
+  },
+  "crop_apply": {
+    "message": "套用"
+  },
+  "history_empty": {
+    "message": "尚未儲存過。"
+  },
+  "snack_max_images": {
+    "message": "最多可新增 $1 張。"
+  },
+  "snack_unsupported": {
+    "message": "因格式不受支援而排除的檔案：$1 個"
+  },
+  "snack_over_limit": {
+    "message": "最多可新增 $1 張，因此只新增了 $2 張。"
+  },
+  "clear_confirm": {
+    "message": "要從清單中移除所有已選圖片嗎？\n原始檔案不會被刪除。"
+  },
+  "crop_open_failed_title": {
+    "message": "無法開啟圖片"
+  },
+  "crop_open_failed_message": {
+    "message": "請重新選擇圖片。"
+  },
+  "snack_saved": {
+    "message": "已透過瀏覽器下載儲存：$1"
+  },
+  "snack_share_cancelled": {
+    "message": "已取消分享。"
+  },
+  "snack_save_cancelled": {
+    "message": "已取消儲存。"
+  },
+  "alert_share_failed_title": {
+    "message": "無法建立檔案"
+  },
+  "alert_save_failed_title": {
+    "message": "無法儲存"
+  },
+  "crashed_title": {
+    "message": "上次儲存未完成"
+  },
+  "crashed_message": {
+    "message": "上次儲存中途結束了。請在儲存完成前保持應用程式開啟；如果反覆發生，請減少圖片數量。"
+  },
+  "ok": {
+    "message": "確定"
+  },
+  "history_count": {
+    "message": "$1 張"
+  },
+  "history_rate": {
+    "message": "最近 $1 天成功率 $2%（$3/$4）"
+  },
+  "history_rate_none": {
+    "message": "最近 $1 天沒有儲存記錄。"
+  },
+  "status_running": {
+    "message": "進行中"
+  },
+  "status_success": {
+    "message": "成功"
+  },
+  "status_failed": {
+    "message": "失敗"
+  },
+  "status_cancelled": {
+    "message": "已取消"
+  },
+  "status_crashed": {
+    "message": "異常結束"
+  },
+  "error_unsupported_format": {
+    "message": "有圖片的格式不受支援。"
+  },
+  "error_unsupported_format_n": {
+    "message": "第 $1 張圖片的格式不受支援。"
+  },
+  "error_corrupt_file": {
+    "message": "有已損毀的圖片檔案。"
+  },
+  "error_corrupt_file_n": {
+    "message": "第 $1 張圖片檔案已損毀。"
+  },
+  "error_source_unavailable": {
+    "message": "無法開啟圖片。請重新選擇。"
+  },
+  "error_source_unavailable_n": {
+    "message": "無法開啟第 $1 張圖片。請重新選擇。"
+  },
+  "error_out_of_space": {
+    "message": "儲存空間不足。"
+  },
+  "error_output_too_large": {
+    "message": "結果檔案太大。請減少圖片數量。"
+  },
+  "error_out_of_memory": {
+    "message": "記憶體不足。請減少圖片數量。"
+  },
+  "error_unknown": {
+    "message": "發生未知的錯誤。"
+  },
+  "item_cropped": {
+    "message": "已編輯區域"
+  },
+  "item_crop_label": {
+    "message": "編輯第 $1 項的區域"
+  },
+  "item_remove_title": {
+    "message": "從清單中移除"
+  },
+  "item_remove_label": {
+    "message": "從清單中移除第 $1 項"
+  },
+  "item_drag_title": {
+    "message": "拖曳以調整順序"
+  },
+  "item_drag_label": {
+    "message": "調整第 $1 項的順序。使用上下方向鍵移動"
+  },
+  "progress_cancelling": {
+    "message": "正在取消…"
+  },
+  "progress_images": {
+    "message": "正在處理圖片 $1/$2"
+  },
+  "progress_building": {
+    "message": "正在建立檔案"
+  },
+  "copy_png_only": {
+    "message": "只有 PNG 可以複製為圖片。"
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "請將剛才下載的檔案（$1）加入這封郵件的附件。"
+  },
+  "snack_share_failed": {
+    "message": "無法開啟分享視窗。請下載後再傳送。"
+  },
+  "snack_copied": {
+    "message": "已複製圖片。可以貼到 KakaoTalk 或郵件視窗中。"
+  },
+  "snack_copy_failed": {
+    "message": "無法複製圖片。請下載後再傳送。"
+  },
+  "snack_mail": {
+    "message": "檔案已下載。請將 $1 加入郵件附件。"
+  },
+  "save_location_default": {
+    "message": "儲存資料夾：瀏覽器下載資料夾"
+  },
+  "save_location_custom": {
+    "message": "儲存資料夾：$1"
+  },
+  "save_privacy_note": {
+    "message": "檔案不會離開這台電腦。"
+  },
+  "change_folder": {
+    "message": "變更"
+  },
+  "folder_dialog_title": {
+    "message": "變更儲存資料夾"
+  },
+  "folder_use_default": {
+    "message": "使用預設資料夾"
+  },
+  "folder_pick": {
+    "message": "選擇其他資料夾"
+  },
+  "progress_saving": {
+    "message": "正在儲存"
+  },
+  "snack_saved_folder": {
+    "message": "已儲存到 $1：$2"
+  },
+  "error_folder_unavailable": {
+    "message": "無法存取儲存資料夾，請重新選擇資料夾。"
+  },
+  "folder_pick_failed": {
+    "message": "無法選擇資料夾，請再試一次。"
+  }
+}

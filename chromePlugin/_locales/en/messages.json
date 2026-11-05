@@ -1,0 +1,411 @@
+{
+  "ext_description": {
+    "message": "Combine multiple images and PDFs into one PNG or PDF to save and share. Everything is processed on this PC."
+  },
+  "ext_action_title": {
+    "message": "Open Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "",
+    "description": "Small subtitle next to the Pic Merge title. Empty in English: no subtitle (DESIGN 2.2)."
+  },
+  "html_lang": {
+    "message": "en",
+    "description": "BCP 47 tag of this translation, used for the html lang attribute. Not shown."
+  },
+  "history_title": {
+    "message": "Recent history"
+  },
+  "add_progress_label": {
+    "message": "Loading files"
+  },
+  "list_panel_label": {
+    "message": "Selected items"
+  },
+  "list_count": {
+    "message": "Selected images $1/$2",
+    "description": "$1 = number of selected images, $2 = maximum"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "empty_title": {
+    "message": "Choose at least 2 images to merge"
+  },
+  "empty_text": {
+    "message": "The layout direction is chosen automatically."
+  },
+  "pick_files": {
+    "message": "Choose images or PDFs"
+  },
+  "drop_hint": {
+    "message": "You can also drop JPEG, PNG, WebP and PDF files onto this page."
+  },
+  "output_panel_label": {
+    "message": "Output settings and preview"
+  },
+  "setting_paper": {
+    "message": "Paper"
+  },
+  "setting_orientation": {
+    "message": "Orientation"
+  },
+  "orientation_portrait": {
+    "message": "Portrait"
+  },
+  "orientation_landscape": {
+    "message": "Landscape"
+  },
+  "setting_per_sheet": {
+    "message": "Images per sheet"
+  },
+  "setting_image_size": {
+    "message": "Image size"
+  },
+  "setting_padding": {
+    "message": "Margin"
+  },
+  "setting_color": {
+    "message": "Color"
+  },
+  "color_color": {
+    "message": "Color"
+  },
+  "color_gray": {
+    "message": "Grayscale"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Original size"
+  },
+  "percent_value": {
+    "message": "$1%",
+    "description": "$1 = percent value, shown on the image size and margin settings"
+  },
+  "preview_label": {
+    "message": "Preview"
+  },
+  "preview_summary": {
+    "message": "Pages: $1 · Images per sheet: $2",
+    "description": "$1 = page count, $2 = images per sheet"
+  },
+  "preview_page_label": {
+    "message": "Page $1",
+    "description": "$1 = page number"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG joins the pages from left to right into one file, with a gray line between images. PDF saves each page separately, without lines."
+  },
+  "preview_note_vertical": {
+    "message": "PNG joins the pages from top to bottom into one file, with a gray line between images. PDF saves each page separately, without lines."
+  },
+  "preview_note_original": {
+    "message": "This is the PNG preview. PNG has a gray line between images. PDF saves one page per image, without lines."
+  },
+  "direction_horizontal": {
+    "message": "Auto: side by side (left → right)"
+  },
+  "direction_vertical": {
+    "message": "Auto: stacked (top → bottom)"
+  },
+  "save_hint": {
+    "message": "Choose at least 2 images to save."
+  },
+  "save_png": {
+    "message": "Save PNG"
+  },
+  "save_pdf": {
+    "message": "Save PDF"
+  },
+  "share": {
+    "message": "Share"
+  },
+  "drop_overlay": {
+    "message": "Drop here to add to the list"
+  },
+  "progress_hint": {
+    "message": "Large images can take tens of seconds."
+  },
+  "progress_keep_tab": {
+    "message": "Keep this tab open until it finishes."
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "share_format_title": {
+    "message": "Which format do you want to share?"
+  },
+  "share_as_png": {
+    "message": "Share as PNG"
+  },
+  "share_as_pdf": {
+    "message": "Share as PDF"
+  },
+  "share_png": {
+    "message": "Share PNG"
+  },
+  "share_pdf": {
+    "message": "Share PDF"
+  },
+  "share_title": {
+    "message": "File created"
+  },
+  "share_system": {
+    "message": "Share"
+  },
+  "share_copy": {
+    "message": "Copy image"
+  },
+  "share_mail": {
+    "message": "Compose email"
+  },
+  "share_download": {
+    "message": "Download"
+  },
+  "share_unavailable": {
+    "message": "Chrome on this PC does not support the file share window. Download or copy the file, then send it."
+  },
+  "share_note": {
+    "message": "On a PC you cannot send directly to KakaoTalk or text messages. If the app appears in the OS share window opened by 'Share', you can choose it there. After 'Copy image', a PNG can be pasted into a KakaoTalk PC chat. 'Compose email' downloads the file and opens your mail app; you attach the file yourself."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "crop_title": {
+    "message": "Edit area"
+  },
+  "crop_loading": {
+    "message": "Opening image…"
+  },
+  "crop_image_alt": {
+    "message": "Image to edit"
+  },
+  "crop_reset": {
+    "message": "Select all"
+  },
+  "crop_apply": {
+    "message": "Apply"
+  },
+  "history_empty": {
+    "message": "Nothing saved yet."
+  },
+  "snack_max_images": {
+    "message": "You can add up to $1 images.",
+    "description": "$1 = maximum number of images"
+  },
+  "snack_unsupported": {
+    "message": "Files excluded because their format is not supported: $1",
+    "description": "$1 = number of excluded files"
+  },
+  "snack_over_limit": {
+    "message": "You can add up to $1 images, so only $2 were added.",
+    "description": "$1 = maximum number of images, $2 = number actually added"
+  },
+  "clear_confirm": {
+    "message": "Remove all selected images from the list?\nThe original files are not deleted."
+  },
+  "crop_open_failed_title": {
+    "message": "Cannot open the image"
+  },
+  "crop_open_failed_message": {
+    "message": "Please choose the image again."
+  },
+  "snack_saved": {
+    "message": "Saved with browser download: $1",
+    "description": "$1 = file name"
+  },
+  "snack_share_cancelled": {
+    "message": "Sharing cancelled."
+  },
+  "snack_save_cancelled": {
+    "message": "Saving cancelled."
+  },
+  "alert_share_failed_title": {
+    "message": "Could not create the file"
+  },
+  "alert_save_failed_title": {
+    "message": "Could not save"
+  },
+  "crashed_title": {
+    "message": "The previous save did not finish"
+  },
+  "crashed_message": {
+    "message": "The previous save ended midway. Keep the app open until saving finishes. If this keeps happening, use fewer images."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 images",
+    "description": "$1 = number of images (always 2 or more)"
+  },
+  "history_rate": {
+    "message": "Success rate, last $1 days: $2% ($3/$4)",
+    "description": "$1 = days, $2 = percent, $3 = successes, $4 = total"
+  },
+  "history_rate_none": {
+    "message": "No saves in the last $1 days.",
+    "description": "$1 = days"
+  },
+  "status_running": {
+    "message": "In progress"
+  },
+  "status_success": {
+    "message": "Success"
+  },
+  "status_failed": {
+    "message": "Failed"
+  },
+  "status_cancelled": {
+    "message": "Cancelled"
+  },
+  "status_crashed": {
+    "message": "Crashed"
+  },
+  "error_unsupported_format": {
+    "message": "An image has an unsupported format."
+  },
+  "error_unsupported_format_n": {
+    "message": "Image $1 has an unsupported format.",
+    "description": "$1 = image number, counted from 1"
+  },
+  "error_corrupt_file": {
+    "message": "An image file is corrupted."
+  },
+  "error_corrupt_file_n": {
+    "message": "Image file $1 is corrupted.",
+    "description": "$1 = image number, counted from 1"
+  },
+  "error_source_unavailable": {
+    "message": "Cannot open an image. Please choose it again."
+  },
+  "error_source_unavailable_n": {
+    "message": "Cannot open image $1. Please choose it again.",
+    "description": "$1 = image number, counted from 1"
+  },
+  "error_out_of_space": {
+    "message": "Not enough storage space."
+  },
+  "error_output_too_large": {
+    "message": "The output file is too large. Use fewer images."
+  },
+  "error_out_of_memory": {
+    "message": "Out of memory. Use fewer images."
+  },
+  "error_unknown": {
+    "message": "An unknown error occurred."
+  },
+  "item_cropped": {
+    "message": "Area edited"
+  },
+  "item_crop_label": {
+    "message": "Edit area of item $1",
+    "description": "$1 = item number, counted from 1"
+  },
+  "item_remove_title": {
+    "message": "Remove from list"
+  },
+  "item_remove_label": {
+    "message": "Remove item $1 from list",
+    "description": "$1 = item number, counted from 1"
+  },
+  "item_drag_title": {
+    "message": "Drag to reorder"
+  },
+  "item_drag_label": {
+    "message": "Reorder item $1. Use the up and down arrow keys to move it",
+    "description": "$1 = item number, counted from 1"
+  },
+  "progress_cancelling": {
+    "message": "Cancelling…"
+  },
+  "progress_images": {
+    "message": "Processing images $1/$2",
+    "description": "$1 = current image, $2 = total"
+  },
+  "progress_building": {
+    "message": "Creating file"
+  },
+  "copy_png_only": {
+    "message": "Only PNG can be copied as an image."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1",
+    "description": "$1 = file name"
+  },
+  "mail_body": {
+    "message": "Please attach the file you just downloaded ($1) to this email.",
+    "description": "$1 = file name"
+  },
+  "snack_share_failed": {
+    "message": "Cannot open the share window. Download the file, then send it."
+  },
+  "snack_copied": {
+    "message": "Image copied. You can paste it into KakaoTalk or an email."
+  },
+  "snack_copy_failed": {
+    "message": "Could not copy the image. Download it, then send it."
+  },
+  "snack_mail": {
+    "message": "File downloaded. Please attach $1 to the email.",
+    "description": "$1 = file name"
+  },
+  "save_location_default": {
+    "message": "Save folder: browser's download folder"
+  },
+  "save_location_custom": {
+    "message": "Save folder: $1",
+    "description": "$1 = folder name"
+  },
+  "save_privacy_note": {
+    "message": "Files never leave this PC."
+  },
+  "change_folder": {
+    "message": "Change"
+  },
+  "folder_dialog_title": {
+    "message": "Change save folder"
+  },
+  "folder_use_default": {
+    "message": "Use default folder"
+  },
+  "folder_pick": {
+    "message": "Choose another folder"
+  },
+  "progress_saving": {
+    "message": "Saving"
+  },
+  "snack_saved_folder": {
+    "message": "Saved to $1: $2",
+    "description": "$1 = folder name, $2 = file name"
+  },
+  "error_folder_unavailable": {
+    "message": "Can't access the save folder. Please choose a folder again."
+  },
+  "folder_pick_failed": {
+    "message": "Couldn't choose a folder. Please try again."
+  }
+}

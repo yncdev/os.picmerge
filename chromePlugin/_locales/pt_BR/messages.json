@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Combina várias imagens e PDFs em um único PNG ou PDF para salvar e compartilhar. Tudo é processado neste PC."
+  },
+  "ext_action_title": {
+    "message": "Abrir o Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "Juntar imagens"
+  },
+  "html_lang": {
+    "message": "pt-BR"
+  },
+  "history_title": {
+    "message": "Histórico recente"
+  },
+  "add_progress_label": {
+    "message": "Carregando arquivos"
+  },
+  "list_panel_label": {
+    "message": "Lista de seleção"
+  },
+  "list_count": {
+    "message": "Imagens selecionadas $1/$2"
+  },
+  "add": {
+    "message": "Adicionar"
+  },
+  "clear": {
+    "message": "Limpar"
+  },
+  "empty_title": {
+    "message": "Escolha pelo menos 2 imagens para juntar"
+  },
+  "empty_text": {
+    "message": "A direção do layout é escolhida automaticamente."
+  },
+  "pick_files": {
+    "message": "Escolher imagens ou PDFs"
+  },
+  "drop_hint": {
+    "message": "Você também pode soltar arquivos JPEG, PNG, WebP e PDF nesta página."
+  },
+  "output_panel_label": {
+    "message": "Configurações de saída e visualização"
+  },
+  "setting_paper": {
+    "message": "Papel"
+  },
+  "setting_orientation": {
+    "message": "Orientação"
+  },
+  "orientation_portrait": {
+    "message": "Retrato"
+  },
+  "orientation_landscape": {
+    "message": "Paisagem"
+  },
+  "setting_per_sheet": {
+    "message": "Imagens por folha"
+  },
+  "setting_image_size": {
+    "message": "Tamanho da imagem"
+  },
+  "setting_padding": {
+    "message": "Margem"
+  },
+  "setting_color": {
+    "message": "Cor"
+  },
+  "color_color": {
+    "message": "Colorido"
+  },
+  "color_gray": {
+    "message": "Tons de cinza"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Carta"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Tamanho original"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "Visualização"
+  },
+  "preview_summary": {
+    "message": "Páginas: $1 · Imagens por folha: $2"
+  },
+  "preview_page_label": {
+    "message": "Página $1"
+  },
+  "preview_note_horizontal": {
+    "message": "O PNG junta as páginas da esquerda para a direita em um único arquivo, com uma linha cinza entre as imagens. O PDF salva cada página separadamente, sem linhas."
+  },
+  "preview_note_vertical": {
+    "message": "O PNG junta as páginas de cima para baixo em um único arquivo, com uma linha cinza entre as imagens. O PDF salva cada página separadamente, sem linhas."
+  },
+  "preview_note_original": {
+    "message": "Esta é a visualização do PNG. O PNG tem uma linha cinza entre as imagens. O PDF salva uma página por imagem, sem linhas."
+  },
+  "direction_horizontal": {
+    "message": "Automático: lado a lado (esquerda → direita)"
+  },
+  "direction_vertical": {
+    "message": "Automático: empilhadas (cima → baixo)"
+  },
+  "save_hint": {
+    "message": "Escolha pelo menos 2 imagens para salvar."
+  },
+  "save_png": {
+    "message": "Salvar PNG"
+  },
+  "save_pdf": {
+    "message": "Salvar PDF"
+  },
+  "share": {
+    "message": "Compartilhar"
+  },
+  "drop_overlay": {
+    "message": "Solte aqui para adicionar à lista"
+  },
+  "progress_hint": {
+    "message": "Imagens grandes podem levar dezenas de segundos."
+  },
+  "progress_keep_tab": {
+    "message": "Mantenha esta guia aberta até terminar."
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "share_format_title": {
+    "message": "Em qual formato você quer compartilhar?"
+  },
+  "share_as_png": {
+    "message": "Compartilhar como PNG"
+  },
+  "share_as_pdf": {
+    "message": "Compartilhar como PDF"
+  },
+  "share_png": {
+    "message": "Compartilhar PNG"
+  },
+  "share_pdf": {
+    "message": "Compartilhar PDF"
+  },
+  "share_title": {
+    "message": "Arquivo criado"
+  },
+  "share_system": {
+    "message": "Compartilhar"
+  },
+  "share_copy": {
+    "message": "Copiar imagem"
+  },
+  "share_mail": {
+    "message": "Escrever e-mail"
+  },
+  "share_download": {
+    "message": "Baixar"
+  },
+  "share_unavailable": {
+    "message": "O Chrome neste PC não oferece suporte à janela de compartilhamento de arquivos. Baixe ou copie o arquivo e depois envie."
+  },
+  "share_note": {
+    "message": "No PC, não é possível enviar diretamente para o KakaoTalk ou por SMS. Se o aplicativo aparecer na janela de compartilhamento do sistema aberta por \"Compartilhar\", você pode escolhê-lo lá. Depois de \"Copiar imagem\", um PNG pode ser colado em uma conversa do KakaoTalk para PC. \"Escrever e-mail\" baixa o arquivo e abre o aplicativo de e-mail; você mesmo precisa anexar o arquivo."
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "crop_title": {
+    "message": "Editar área"
+  },
+  "crop_loading": {
+    "message": "Abrindo imagem…"
+  },
+  "crop_image_alt": {
+    "message": "Imagem a editar"
+  },
+  "crop_reset": {
+    "message": "Selecionar tudo"
+  },
+  "crop_apply": {
+    "message": "Aplicar"
+  },
+  "history_empty": {
+    "message": "Nada foi salvo ainda."
+  },
+  "snack_max_images": {
+    "message": "Você pode adicionar até $1 imagens."
+  },
+  "snack_unsupported": {
+    "message": "Arquivos excluídos por formato não compatível: $1"
+  },
+  "snack_over_limit": {
+    "message": "Você pode adicionar até $1 imagens; imagens adicionadas: $2."
+  },
+  "clear_confirm": {
+    "message": "Remover todas as imagens selecionadas da lista?\nOs arquivos originais não são excluídos."
+  },
+  "crop_open_failed_title": {
+    "message": "Não é possível abrir a imagem"
+  },
+  "crop_open_failed_message": {
+    "message": "Escolha a imagem novamente."
+  },
+  "snack_saved": {
+    "message": "Salvo pelo download do navegador: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Compartilhamento cancelado."
+  },
+  "snack_save_cancelled": {
+    "message": "Salvamento cancelado."
+  },
+  "alert_share_failed_title": {
+    "message": "Não foi possível criar o arquivo"
+  },
+  "alert_save_failed_title": {
+    "message": "Não foi possível salvar"
+  },
+  "crashed_title": {
+    "message": "O salvamento anterior não terminou"
+  },
+  "crashed_message": {
+    "message": "O salvamento anterior foi interrompido. Mantenha o app aberto até o salvamento terminar. Se continuar acontecendo, use menos imagens."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "history_count": {
+    "message": "$1 imagens"
+  },
+  "history_rate": {
+    "message": "Taxa de sucesso, últimos $1 dias: $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "Nenhum salvamento nos últimos $1 dias."
+  },
+  "status_running": {
+    "message": "Em andamento"
+  },
+  "status_success": {
+    "message": "Sucesso"
+  },
+  "status_failed": {
+    "message": "Falha"
+  },
+  "status_cancelled": {
+    "message": "Cancelado"
+  },
+  "status_crashed": {
+    "message": "Encerramento anormal"
+  },
+  "error_unsupported_format": {
+    "message": "Há uma imagem em formato não compatível."
+  },
+  "error_unsupported_format_n": {
+    "message": "A imagem $1 está em um formato não compatível."
+  },
+  "error_corrupt_file": {
+    "message": "Há um arquivo de imagem corrompido."
+  },
+  "error_corrupt_file_n": {
+    "message": "O arquivo da imagem $1 está corrompido."
+  },
+  "error_source_unavailable": {
+    "message": "Não é possível abrir uma imagem. Escolha-a novamente."
+  },
+  "error_source_unavailable_n": {
+    "message": "Não é possível abrir a imagem $1. Escolha-a novamente."
+  },
+  "error_out_of_space": {
+    "message": "Espaço de armazenamento insuficiente."
+  },
+  "error_output_too_large": {
+    "message": "O arquivo resultante é muito grande. Use menos imagens."
+  },
+  "error_out_of_memory": {
+    "message": "Memória insuficiente. Use menos imagens."
+  },
+  "error_unknown": {
+    "message": "Ocorreu um erro desconhecido."
+  },
+  "item_cropped": {
+    "message": "Área editada"
+  },
+  "item_crop_label": {
+    "message": "Editar a área do item $1"
+  },
+  "item_remove_title": {
+    "message": "Remover da lista"
+  },
+  "item_remove_label": {
+    "message": "Remover o item $1 da lista"
+  },
+  "item_drag_title": {
+    "message": "Arraste para reordenar"
+  },
+  "item_drag_label": {
+    "message": "Reordenar o item $1. Use as setas para cima e para baixo para movê-lo"
+  },
+  "progress_cancelling": {
+    "message": "Cancelando…"
+  },
+  "progress_images": {
+    "message": "Processando imagens $1/$2"
+  },
+  "progress_building": {
+    "message": "Criando arquivo"
+  },
+  "copy_png_only": {
+    "message": "Só é possível copiar como imagem no formato PNG."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "Anexe a este e-mail o arquivo que você acabou de baixar ($1)."
+  },
+  "snack_share_failed": {
+    "message": "Não é possível abrir a janela de compartilhamento. Baixe o arquivo e depois envie."
+  },
+  "snack_copied": {
+    "message": "Imagem copiada. Você pode colá-la no KakaoTalk ou em um e-mail."
+  },
+  "snack_copy_failed": {
+    "message": "Não foi possível copiar a imagem. Baixe-a e depois envie."
+  },
+  "snack_mail": {
+    "message": "Arquivo baixado. Anexe $1 ao e-mail."
+  },
+  "save_location_default": {
+    "message": "Pasta: downloads do navegador"
+  },
+  "save_location_custom": {
+    "message": "Pasta: $1"
+  },
+  "save_privacy_note": {
+    "message": "Os arquivos nunca saem deste PC."
+  },
+  "change_folder": {
+    "message": "Alterar"
+  },
+  "folder_dialog_title": {
+    "message": "Alterar pasta para salvar"
+  },
+  "folder_use_default": {
+    "message": "Usar pasta padrão"
+  },
+  "folder_pick": {
+    "message": "Escolher outra pasta"
+  },
+  "progress_saving": {
+    "message": "Salvando"
+  },
+  "snack_saved_folder": {
+    "message": "Salvo em $1: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Não é possível acessar a pasta para salvar. Escolha uma pasta novamente."
+  },
+  "folder_pick_failed": {
+    "message": "Não foi possível escolher a pasta. Tente novamente."
+  }
+}

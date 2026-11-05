@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "Объединяет изображения и PDF в один файл PNG или PDF для сохранения и отправки. Вся обработка идёт на этом ПК."
+  },
+  "ext_action_title": {
+    "message": "Открыть Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "Объединение изображений"
+  },
+  "html_lang": {
+    "message": "ru"
+  },
+  "history_title": {
+    "message": "Недавние записи"
+  },
+  "add_progress_label": {
+    "message": "Загрузка файлов"
+  },
+  "list_panel_label": {
+    "message": "Список выбранного"
+  },
+  "list_count": {
+    "message": "Выбрано изображений $1/$2"
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "clear": {
+    "message": "Очистить"
+  },
+  "empty_title": {
+    "message": "Выберите не менее 2 изображений для объединения"
+  },
+  "empty_text": {
+    "message": "Направление размещения выбирается автоматически."
+  },
+  "pick_files": {
+    "message": "Выбрать изображения или PDF"
+  },
+  "drop_hint": {
+    "message": "Файлы JPEG, PNG, WebP и PDF можно также перетащить на эту страницу."
+  },
+  "output_panel_label": {
+    "message": "Параметры вывода и предпросмотр"
+  },
+  "setting_paper": {
+    "message": "Бумага"
+  },
+  "setting_orientation": {
+    "message": "Ориентация"
+  },
+  "orientation_portrait": {
+    "message": "Книжная"
+  },
+  "orientation_landscape": {
+    "message": "Альбомная"
+  },
+  "setting_per_sheet": {
+    "message": "Изображений на листе"
+  },
+  "setting_image_size": {
+    "message": "Размер изображения"
+  },
+  "setting_padding": {
+    "message": "Поля"
+  },
+  "setting_color": {
+    "message": "Цвет"
+  },
+  "color_color": {
+    "message": "Цветной"
+  },
+  "color_gray": {
+    "message": "Оттенки серого"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "Исходный размер"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "Предпросмотр"
+  },
+  "preview_summary": {
+    "message": "Страниц: $1 · Изображений на листе: $2"
+  },
+  "preview_page_label": {
+    "message": "Страница $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG соединяет страницы слева направо в один файл с серой линией между изображениями. PDF сохраняет каждую страницу отдельно, без линий."
+  },
+  "preview_note_vertical": {
+    "message": "PNG соединяет страницы сверху вниз в один файл с серой линией между изображениями. PDF сохраняет каждую страницу отдельно, без линий."
+  },
+  "preview_note_original": {
+    "message": "Это предпросмотр PNG. В PNG между изображениями есть серая линия. PDF сохраняет по одной странице на изображение, без линий."
+  },
+  "direction_horizontal": {
+    "message": "Авто: рядом (слева → направо)"
+  },
+  "direction_vertical": {
+    "message": "Авто: стопкой (сверху → вниз)"
+  },
+  "save_hint": {
+    "message": "Чтобы сохранить, выберите не менее 2 изображений."
+  },
+  "save_png": {
+    "message": "Сохранить PNG"
+  },
+  "save_pdf": {
+    "message": "Сохранить PDF"
+  },
+  "share": {
+    "message": "Поделиться"
+  },
+  "drop_overlay": {
+    "message": "Отпустите здесь, чтобы добавить в список"
+  },
+  "progress_hint": {
+    "message": "Обработка больших изображений может занять несколько десятков секунд."
+  },
+  "progress_keep_tab": {
+    "message": "Не закрывайте эту вкладку до завершения."
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "share_format_title": {
+    "message": "В каком формате поделиться?"
+  },
+  "share_as_png": {
+    "message": "Поделиться как PNG"
+  },
+  "share_as_pdf": {
+    "message": "Поделиться как PDF"
+  },
+  "share_png": {
+    "message": "Отправка PNG"
+  },
+  "share_pdf": {
+    "message": "Отправка PDF"
+  },
+  "share_title": {
+    "message": "Файл создан"
+  },
+  "share_system": {
+    "message": "Поделиться"
+  },
+  "share_copy": {
+    "message": "Копировать изображение"
+  },
+  "share_mail": {
+    "message": "Написать письмо"
+  },
+  "share_download": {
+    "message": "Скачать"
+  },
+  "share_unavailable": {
+    "message": "Chrome на этом ПК не поддерживает окно отправки файлов. Скачайте или скопируйте файл, а затем отправьте его."
+  },
+  "share_note": {
+    "message": "С ПК нельзя отправить напрямую в KakaoTalk или по SMS. Если приложение есть в окне отправки ОС, которое открывает кнопка «Поделиться», его можно выбрать там. После «Копировать изображение» PNG можно вставить в чат KakaoTalk на ПК. «Написать письмо» скачивает файл и открывает почтовое приложение; файл нужно прикрепить вручную."
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "crop_title": {
+    "message": "Изменить область"
+  },
+  "crop_loading": {
+    "message": "Открытие изображения…"
+  },
+  "crop_image_alt": {
+    "message": "Редактируемое изображение"
+  },
+  "crop_reset": {
+    "message": "Выбрать всё"
+  },
+  "crop_apply": {
+    "message": "Применить"
+  },
+  "history_empty": {
+    "message": "Пока ничего не сохранено."
+  },
+  "snack_max_images": {
+    "message": "Можно добавить не более $1 изображений."
+  },
+  "snack_unsupported": {
+    "message": "Исключено файлов из-за неподдерживаемого формата: $1"
+  },
+  "snack_over_limit": {
+    "message": "Можно добавить не более $1 изображений. Добавлено: $2."
+  },
+  "clear_confirm": {
+    "message": "Убрать все выбранные изображения из списка?\nИсходные файлы не удаляются."
+  },
+  "crop_open_failed_title": {
+    "message": "Не удаётся открыть изображение"
+  },
+  "crop_open_failed_message": {
+    "message": "Выберите изображение ещё раз."
+  },
+  "snack_saved": {
+    "message": "Сохранено через загрузки браузера: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "Отправка отменена."
+  },
+  "snack_save_cancelled": {
+    "message": "Сохранение отменено."
+  },
+  "alert_share_failed_title": {
+    "message": "Не удалось создать файл"
+  },
+  "alert_save_failed_title": {
+    "message": "Не удалось сохранить"
+  },
+  "crashed_title": {
+    "message": "Предыдущее сохранение не завершилось"
+  },
+  "crashed_message": {
+    "message": "Предыдущее сохранение прервалось. Не закрывайте приложение до конца сохранения. Если это повторяется, используйте меньше изображений."
+  },
+  "ok": {
+    "message": "ОК"
+  },
+  "history_count": {
+    "message": "Изображений: $1"
+  },
+  "history_rate": {
+    "message": "Доля успешных за $1 дн.: $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "За последние дни ($1 дн.) сохранений нет."
+  },
+  "status_running": {
+    "message": "Выполняется"
+  },
+  "status_success": {
+    "message": "Успешно"
+  },
+  "status_failed": {
+    "message": "Ошибка"
+  },
+  "status_cancelled": {
+    "message": "Отменено"
+  },
+  "status_crashed": {
+    "message": "Сбой"
+  },
+  "error_unsupported_format": {
+    "message": "Формат одного из изображений не поддерживается."
+  },
+  "error_unsupported_format_n": {
+    "message": "Формат изображения № $1 не поддерживается."
+  },
+  "error_corrupt_file": {
+    "message": "Один из файлов изображений повреждён."
+  },
+  "error_corrupt_file_n": {
+    "message": "Файл изображения № $1 повреждён."
+  },
+  "error_source_unavailable": {
+    "message": "Не удаётся открыть изображение. Выберите его ещё раз."
+  },
+  "error_source_unavailable_n": {
+    "message": "Не удаётся открыть изображение № $1. Выберите его ещё раз."
+  },
+  "error_out_of_space": {
+    "message": "Недостаточно места для хранения."
+  },
+  "error_output_too_large": {
+    "message": "Итоговый файл слишком большой. Используйте меньше изображений."
+  },
+  "error_out_of_memory": {
+    "message": "Недостаточно памяти. Используйте меньше изображений."
+  },
+  "error_unknown": {
+    "message": "Произошла неизвестная ошибка."
+  },
+  "item_cropped": {
+    "message": "Область изменена"
+  },
+  "item_crop_label": {
+    "message": "Изменить область элемента № $1"
+  },
+  "item_remove_title": {
+    "message": "Убрать из списка"
+  },
+  "item_remove_label": {
+    "message": "Убрать элемент № $1 из списка"
+  },
+  "item_drag_title": {
+    "message": "Перетащите, чтобы изменить порядок"
+  },
+  "item_drag_label": {
+    "message": "Изменить порядок элемента № $1. Перемещайте клавишами со стрелками вверх и вниз"
+  },
+  "progress_cancelling": {
+    "message": "Отмена…"
+  },
+  "progress_images": {
+    "message": "Обработка изображений $1/$2"
+  },
+  "progress_building": {
+    "message": "Создание файла"
+  },
+  "copy_png_only": {
+    "message": "Как изображение можно скопировать только PNG."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "Прикрепите к этому письму только что скачанный файл ($1)."
+  },
+  "snack_share_failed": {
+    "message": "Не удаётся открыть окно отправки. Скачайте файл, а затем отправьте его."
+  },
+  "snack_copied": {
+    "message": "Изображение скопировано. Его можно вставить в KakaoTalk или письмо."
+  },
+  "snack_copy_failed": {
+    "message": "Не удалось скопировать изображение. Скачайте его, а затем отправьте."
+  },
+  "snack_mail": {
+    "message": "Файл скачан. Прикрепите $1 к письму."
+  },
+  "save_location_default": {
+    "message": "Папка: загрузки браузера"
+  },
+  "save_location_custom": {
+    "message": "Папка: $1"
+  },
+  "save_privacy_note": {
+    "message": "Файлы никогда не покидают этот ПК."
+  },
+  "change_folder": {
+    "message": "Изменить"
+  },
+  "folder_dialog_title": {
+    "message": "Изменить папку для сохранения"
+  },
+  "folder_use_default": {
+    "message": "Использовать папку по умолчанию"
+  },
+  "folder_pick": {
+    "message": "Выбрать другую папку"
+  },
+  "progress_saving": {
+    "message": "Сохранение"
+  },
+  "snack_saved_folder": {
+    "message": "Сохранено в папку $1: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "Нет доступа к папке для сохранения. Выберите папку ещё раз."
+  },
+  "folder_pick_failed": {
+    "message": "Не удалось выбрать папку. Повторите попытку."
+  }
+}

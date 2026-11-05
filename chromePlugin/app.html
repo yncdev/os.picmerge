@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pic Merge</title>
+    <link rel="icon" href="icons/icon32.png" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <svg class="sprite" aria-hidden="true">
+      <symbol id="i-add" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z" /></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6z" /></symbol>
+      <symbol id="i-crop" viewBox="0 0 24 24"><path d="M17 15h2V7a2 2 0 0 0-2-2H9v2h8zM7 17V1H5v4H1v2h4v10a2 2 0 0 0 2 2h10v4h2v-4h4v-2z" /></symbol>
+      <symbol id="i-drag" viewBox="0 0 24 24"><path d="M3 9h18v2H3zm0 4h18v2H3z" /></symbol>
+      <symbol id="i-history" viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.9 3.9L9 12H6a7 7 0 1 1 2.1 5l-1.4 1.4A9 9 0 1 0 13 3m-1 5v5l4.3 2.5.7-1.2-3.5-2.1V8z" /></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><path d="M19 5v14H5V5zm0-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-4.9 8.9-3 3.8L9 12.2 6 16h12z" /></symbol>
+      <symbol id="i-pdf" viewBox="0 0 24 24"><path d="M20 2H8a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2m0 14H8V4h12zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4zm5.5 3.5H11A1.5 1.5 0 0 0 11 6.5H9.5V12h1.2v-1.5zM10.7 7.6h.3a.4.4 0 0 1 0 .8h-.3zM14 12h1.3a1.7 1.7 0 0 0 1.7-1.7V8.2a1.7 1.7 0 0 0-1.7-1.7H14zm1.2-4.4h.1c.3 0 .5.2.5.5v2.3c0 .3-.2.5-.5.5h-.1zm3 4.4h1.2V9.9h1.2V8.8h-1.2V7.6h1.2V6.5h-2.4z" /></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><path d="M18 16a3 3 0 0 0-2 .8l-7.1-4.2a3 3 0 0 0 0-1.2L15.9 7.3A3 3 0 1 0 15 5q0 .3.1.6L8 9.8a3 3 0 1 0 0 4.4l7.1 4.2-.1.6a3 3 0 1 0 3-3" /></symbol>
+    </svg>
+
+    <header class="topbar">
+      <img class="brand-icon" src="icons/icon48.png" alt="" width="32" height="32" />
+      <h1 id="app-title"></h1>
+      <button id="history-button" type="button" class="icon-button" data-i18n-title="history_title" data-i18n-aria-label="history_title">
+        <svg class="icon" aria-hidden="true"><use href="#i-history" /></svg>
+      </button>
+      <progress id="add-progress" class="add-progress" max="1" value="0" data-i18n-aria-label="add_progress_label" hidden></progress>
+    </header>
+
+    <main class="layout">
+      <section class="panel list-panel" data-i18n-aria-label="list_panel_label">
+        <div id="list-header" class="list-header" hidden>
+          <h2 id="list-count"></h2>
+          <button id="add-button" type="button" class="button text">
+            <svg class="icon" aria-hidden="true"><use href="#i-add" /></svg><span data-i18n="add"></span>
+          </button>
+          <button id="clear-button" type="button" class="button text"><span data-i18n="clear"></span></button>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <svg class="icon empty-icon" aria-hidden="true"><use href="#i-image" /></svg>
+          <p class="empty-title" data-i18n="empty_title"></p>
+          <p class="empty-text" data-i18n="empty_text"></p>
+          <button id="pick-button" type="button" class="button filled">
+            <svg class="icon" aria-hidden="true"><use href="#i-add" /></svg><span data-i18n="pick_files"></span>
+          </button>
+          <p class="empty-text small" data-i18n="drop_hint"></p>
+        </div>
+
+        <ul id="item-list" class="items" hidden></ul>
+      </section>
+
+      <section class="panel output-panel" data-i18n-aria-label="output_panel_label">
+        <div class="settings">
+          <label class="setting">
+            <span class="setting-label" data-i18n="setting_paper"></span>
+            <select id="paper-select"></select>
+          </label>
+          <fieldset id="orientation-group" class="setting segmented">
+            <legend class="setting-label" data-i18n="setting_orientation"></legend>
+            <label><input type="radio" name="orientation" value="portrait" /><span data-i18n="orientation_portrait"></span></label>
+            <label><input type="radio" name="orientation" value="landscape" /><span data-i18n="orientation_landscape"></span></label>
+          </fieldset>
+          <label id="per-sheet-setting" class="setting">
+            <span class="setting-label" data-i18n="setting_per_sheet"></span>
+            <select id="per-sheet-select"></select>
+          </label>
+          <label id="image-size-setting" class="setting">
+            <span class="setting-label" data-i18n="setting_image_size"></span>
+            <select id="image-size-select"></select>
+          </label>
+          <fieldset id="padding-group" class="setting segmented">
+            <legend class="setting-label" data-i18n="setting_padding"></legend>
+          </fieldset>
+          <fieldset class="setting segmented">
+            <legend class="setting-label" data-i18n="setting_color"></legend>
+            <label><input type="radio" name="color" value="color" /><span data-i18n="color_color"></span></label>
+            <label><input type="radio" name="color" value="gray" /><span data-i18n="color_gray"></span></label>
+          </fieldset>
+        </div>
+
+        <p id="preview-direction" class="preview-direction" hidden></p>
+        <div id="preview-box" class="preview-box" tabindex="0" role="group" data-i18n-aria-label="preview_label">
+          <div id="preview-pages" class="preview-pages"></div>
+        </div>
+        <p id="preview-note" class="note" hidden></p>
+      </section>
+    </main>
+
+    <footer class="save-bar">
+      <div class="save-notes">
+        <p id="save-hint" class="note hint" data-i18n="save_hint" hidden></p>
+        <p class="note save-location">
+          <span id="save-location"></span>
+          <button id="change-folder" type="button" class="bar-link" data-i18n="change_folder"></button>
+        </p>
+        <p class="note" data-i18n="save_privacy_note"></p>
+      </div>
+      <div class="actions">
+        <button id="save-png" type="button" class="button filled" disabled>
+          <svg class="icon" aria-hidden="true"><use href="#i-image" /></svg><span data-i18n="save_png"></span>
+        </button>
+        <button id="save-pdf" type="button" class="button tonal" disabled>
+          <svg class="icon" aria-hidden="true"><use href="#i-pdf" /></svg><span data-i18n="save_pdf"></span>
+        </button>
+        <button id="share-button" type="button" class="button tonal" disabled>
+          <svg class="icon" aria-hidden="true"><use href="#i-share" /></svg><span data-i18n="share"></span>
+        </button>
+      </div>
+    </footer>
+
+    <input id="file-input" type="file" accept="image/jpeg,image/png,image/webp,application/pdf" multiple hidden />
+
+    <div id="drop-overlay" class="drop-overlay" hidden><p data-i18n="drop_overlay"></p></div>
+    <div id="snackbar" class="snackbar" popover="manual" role="status" aria-live="polite"></div>
+
+    <dialog id="message-dialog" class="dialog" aria-labelledby="message-title">
+      <h2 id="message-title"></h2>
+      <p id="message-text" class="message-text"></p>
+      <div id="message-actions" class="dialog-actions"></div>
+    </dialog>
+
+    <dialog id="progress-dialog" class="dialog progress-dialog" aria-labelledby="progress-title">
+      <h2 id="progress-title"></h2>
+      <progress id="progress-bar" max="1" value="0"></progress>
+      <div id="progress-spinner" class="spinner" hidden></div>
+      <p id="progress-text"></p>
+      <p id="progress-hint" class="note" data-i18n="progress_hint" hidden></p>
+      <p class="note" data-i18n="progress_keep_tab"></p>
+      <div class="dialog-actions center">
+        <button id="progress-cancel" type="button" class="button text" data-i18n="cancel"></button>
+      </div>
+    </dialog>
+
+    <dialog id="folder-dialog" class="dialog" aria-labelledby="folder-title">
+      <h2 id="folder-title" data-i18n="folder_dialog_title"></h2>
+      <p id="folder-reason" class="message-text hint" hidden></p>
+      <p id="folder-current" class="folder-current"></p>
+      <div class="folder-actions">
+        <button id="folder-use-default" type="button" class="button tonal" data-i18n="folder_use_default"></button>
+        <button id="folder-pick" type="button" class="button filled" data-i18n="folder_pick"></button>
+        <button id="folder-cancel" type="button" class="button text" data-i18n="cancel"></button>
+      </div>
+    </dialog>
+
+    <dialog id="share-format-dialog" class="dialog" aria-labelledby="share-format-title">
+      <h2 id="share-format-title" data-i18n="share_format_title"></h2>
+      <form method="dialog" class="share-format-actions">
+        <button type="submit" value="png" class="button filled" data-i18n="share_as_png"></button>
+        <button type="submit" value="pdf" class="button tonal" data-i18n="share_as_pdf"></button>
+        <button type="submit" value="" class="button text" data-i18n="cancel"></button>
+      </form>
+    </dialog>
+
+    <dialog id="share-dialog" class="dialog share-dialog" aria-labelledby="share-title">
+      <h2 id="share-title" data-i18n="share_title"></h2>
+      <p id="share-file" class="share-file"></p>
+      <div class="share-actions">
+        <button id="share-system" type="button" class="button filled" data-i18n="share_system"></button>
+        <button id="share-copy" type="button" class="button tonal" data-i18n="share_copy"></button>
+        <button id="share-mail" type="button" class="button tonal" data-i18n="share_mail"></button>
+        <button id="share-download" type="button" class="button tonal" data-i18n="share_download"></button>
+      </div>
+      <p id="share-unavailable" class="note hint" data-i18n="share_unavailable" hidden></p>
+      <p class="note" data-i18n="share_note"></p>
+      <div class="dialog-actions">
+        <button id="share-close" type="button" class="button text" data-i18n="close"></button>
+      </div>
+    </dialog>
+
+    <dialog id="crop-dialog" class="crop-dialog" aria-labelledby="crop-title">
+      <header class="crop-header">
+        <h2 id="crop-title" data-i18n="crop_title"></h2>
+        <span id="crop-name" class="crop-name"></span>
+      </header>
+      <div id="crop-stage" class="crop-stage">
+        <p id="crop-loading" class="crop-loading" data-i18n="crop_loading"></p>
+        <div id="crop-wrap" class="crop-wrap" hidden>
+          <img id="crop-image" data-i18n-alt="crop_image_alt" draggable="false" />
+          <div id="crop-box" class="crop-box">
+            <span class="crop-handle n" data-handle="n"></span>
+            <span class="crop-handle s" data-handle="s"></span>
+            <span class="crop-handle e" data-handle="e"></span>
+            <span class="crop-handle w" data-handle="w"></span>
+            <span class="crop-handle ne" data-handle="ne"></span>
+            <span class="crop-handle nw" data-handle="nw"></span>
+            <span class="crop-handle se" data-handle="se"></span>
+            <span class="crop-handle sw" data-handle="sw"></span>
+          </div>
+        </div>
+      </div>
+      <footer class="crop-footer">
+        <span id="crop-size" class="crop-size"></span>
+        <button id="crop-reset" type="button" class="button text" data-i18n="crop_reset"></button>
+        <span class="spacer"></span>
+        <button id="crop-cancel" type="button" class="button text" data-i18n="cancel"></button>
+        <button id="crop-apply" type="button" class="button filled" data-i18n="crop_apply"></button>
+      </footer>
+    </dialog>
+
+    <dialog id="history-dialog" class="history-dialog" aria-labelledby="history-title">
+      <header class="history-header">
+        <h2 id="history-title" data-i18n="history_title"></h2>
+        <button id="history-close" type="button" class="icon-button" data-i18n-title="close" data-i18n-aria-label="close">
+          <svg class="icon" aria-hidden="true"><use href="#i-close" /></svg>
+        </button>
+      </header>
+      <p id="history-rate" class="history-rate"></p>
+      <p id="history-empty" class="history-empty" data-i18n="history_empty" hidden></p>
+      <ul id="history-list" class="history-list"></ul>
+    </dialog>
+  </body>
+</html>

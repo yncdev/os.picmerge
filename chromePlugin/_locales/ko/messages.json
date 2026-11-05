@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "여러 이미지와 PDF를 하나로 합쳐 PNG나 PDF로 저장하고 공유합니다. 모든 처리는 이 PC 안에서만 합니다."
+  },
+  "ext_action_title": {
+    "message": "Pic Merge 열기"
+  },
+  "app_subtitle": {
+    "message": "이미지 합치기"
+  },
+  "html_lang": {
+    "message": "ko"
+  },
+  "history_title": {
+    "message": "최근 기록"
+  },
+  "add_progress_label": {
+    "message": "파일 불러오는 중"
+  },
+  "list_panel_label": {
+    "message": "선택 목록"
+  },
+  "list_count": {
+    "message": "선택한 이미지 $1/$2"
+  },
+  "add": {
+    "message": "추가"
+  },
+  "clear": {
+    "message": "비우기"
+  },
+  "empty_title": {
+    "message": "합칠 이미지를 2장 이상 골라 주세요"
+  },
+  "empty_text": {
+    "message": "배치 방향은 자동으로 정합니다."
+  },
+  "pick_files": {
+    "message": "이미지·PDF 선택"
+  },
+  "drop_hint": {
+    "message": "JPEG, PNG, WebP, PDF 파일을 이 화면에 끌어다 놓아도 됩니다."
+  },
+  "output_panel_label": {
+    "message": "출력 설정과 미리보기"
+  },
+  "setting_paper": {
+    "message": "용지"
+  },
+  "setting_orientation": {
+    "message": "용지 방향"
+  },
+  "orientation_portrait": {
+    "message": "세로"
+  },
+  "orientation_landscape": {
+    "message": "가로"
+  },
+  "setting_per_sheet": {
+    "message": "용지당 이미지 수"
+  },
+  "setting_image_size": {
+    "message": "이미지 크기"
+  },
+  "setting_padding": {
+    "message": "여백"
+  },
+  "setting_color": {
+    "message": "색상"
+  },
+  "color_color": {
+    "message": "컬러"
+  },
+  "color_gray": {
+    "message": "흑백"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "원본 크기"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "미리보기"
+  },
+  "preview_summary": {
+    "message": "총 $1페이지 · 용지당 $2개"
+  },
+  "preview_page_label": {
+    "message": "$1페이지"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG는 페이지를 왼쪽에서 오른쪽으로 이어 한 파일로 만들고 이미지 사이에 회색 선을 넣습니다. PDF는 페이지별로 저장되고 선이 없습니다."
+  },
+  "preview_note_vertical": {
+    "message": "PNG는 페이지를 위에서 아래로 이어 한 파일로 만들고 이미지 사이에 회색 선을 넣습니다. PDF는 페이지별로 저장되고 선이 없습니다."
+  },
+  "preview_note_original": {
+    "message": "PNG 미리보기입니다. PNG에는 이미지 사이에 회색 선이 들어갑니다. PDF는 이미지마다 한 페이지로 저장되고 선이 없습니다."
+  },
+  "direction_horizontal": {
+    "message": "자동: 가로 배치 (왼쪽 → 오른쪽)"
+  },
+  "direction_vertical": {
+    "message": "자동: 세로 배치 (위 → 아래)"
+  },
+  "save_hint": {
+    "message": "2장 이상 골라야 저장할 수 있습니다."
+  },
+  "save_png": {
+    "message": "PNG 저장"
+  },
+  "save_pdf": {
+    "message": "PDF 저장"
+  },
+  "share": {
+    "message": "공유"
+  },
+  "drop_overlay": {
+    "message": "여기에 놓으면 목록에 추가합니다"
+  },
+  "progress_hint": {
+    "message": "이미지가 크면 수십 초 걸릴 수 있습니다."
+  },
+  "progress_keep_tab": {
+    "message": "끝날 때까지 이 탭을 닫지 마세요."
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "share_format_title": {
+    "message": "어떤 형식으로 공유할까요?"
+  },
+  "share_as_png": {
+    "message": "PNG로 공유"
+  },
+  "share_as_pdf": {
+    "message": "PDF로 공유"
+  },
+  "share_png": {
+    "message": "PNG 공유"
+  },
+  "share_pdf": {
+    "message": "PDF 공유"
+  },
+  "share_title": {
+    "message": "파일을 만들었습니다"
+  },
+  "share_system": {
+    "message": "공유하기"
+  },
+  "share_copy": {
+    "message": "이미지 복사"
+  },
+  "share_mail": {
+    "message": "메일 작성"
+  },
+  "share_download": {
+    "message": "다운로드"
+  },
+  "share_unavailable": {
+    "message": "이 PC의 Chrome은 파일 공유 창을 지원하지 않습니다. 다운로드하거나 복사한 뒤 보내 주세요."
+  },
+  "share_note": {
+    "message": "PC에서는 카카오톡이나 문자로 바로 보낼 수 없습니다. '공유하기'를 눌러 열리는 OS 공유 창에 그 앱이 있으면 고를 수 있습니다. PNG는 '이미지 복사' 뒤 PC 카카오톡 대화창에 붙여넣을 수 있습니다. '메일 작성'은 파일을 내려받고 메일 앱을 여는 기능이라 첨부는 직접 해야 합니다."
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "crop_title": {
+    "message": "영역 편집"
+  },
+  "crop_loading": {
+    "message": "이미지를 여는 중…"
+  },
+  "crop_image_alt": {
+    "message": "편집할 이미지"
+  },
+  "crop_reset": {
+    "message": "전체 선택"
+  },
+  "crop_apply": {
+    "message": "적용"
+  },
+  "history_empty": {
+    "message": "아직 저장한 적이 없습니다."
+  },
+  "snack_max_images": {
+    "message": "최대 $1장까지 담을 수 있습니다."
+  },
+  "snack_unsupported": {
+    "message": "$1개 파일은 지원하지 않는 형식이라 제외했습니다."
+  },
+  "snack_over_limit": {
+    "message": "최대 $1장까지 담을 수 있어 $2장만 추가했습니다."
+  },
+  "clear_confirm": {
+    "message": "선택한 이미지를 모두 목록에서 뺄까요?\n원본 파일은 지워지지 않습니다."
+  },
+  "crop_open_failed_title": {
+    "message": "이미지를 열 수 없습니다"
+  },
+  "crop_open_failed_message": {
+    "message": "이미지를 다시 선택해 주세요."
+  },
+  "snack_saved": {
+    "message": "브라우저 다운로드로 저장했습니다: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "공유를 취소했습니다."
+  },
+  "snack_save_cancelled": {
+    "message": "저장을 취소했습니다."
+  },
+  "alert_share_failed_title": {
+    "message": "파일을 만들지 못했습니다"
+  },
+  "alert_save_failed_title": {
+    "message": "저장하지 못했습니다"
+  },
+  "crashed_title": {
+    "message": "이전 저장이 끝나지 않았습니다"
+  },
+  "crashed_message": {
+    "message": "이전 저장이 중간에 종료되었습니다. 저장이 끝날 때까지 앱을 켜 두고, 계속되면 이미지 수를 줄여 주세요."
+  },
+  "ok": {
+    "message": "확인"
+  },
+  "history_count": {
+    "message": "$1장"
+  },
+  "history_rate": {
+    "message": "최근 $1일 성공률 $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "최근 $1일 저장 기록이 없습니다."
+  },
+  "status_running": {
+    "message": "진행 중"
+  },
+  "status_success": {
+    "message": "성공"
+  },
+  "status_failed": {
+    "message": "실패"
+  },
+  "status_cancelled": {
+    "message": "취소"
+  },
+  "status_crashed": {
+    "message": "비정상 종료"
+  },
+  "error_unsupported_format": {
+    "message": "지원하지 않는 형식의 이미지가 있습니다."
+  },
+  "error_unsupported_format_n": {
+    "message": "$1번째 이미지는 지원하지 않는 형식입니다."
+  },
+  "error_corrupt_file": {
+    "message": "손상된 이미지 파일이 있습니다."
+  },
+  "error_corrupt_file_n": {
+    "message": "$1번째 이미지 파일이 손상되었습니다."
+  },
+  "error_source_unavailable": {
+    "message": "이미지를 열 수 없습니다. 다시 선택해 주세요."
+  },
+  "error_source_unavailable_n": {
+    "message": "$1번째 이미지를 열 수 없습니다. 다시 선택해 주세요."
+  },
+  "error_out_of_space": {
+    "message": "저장 공간이 부족합니다."
+  },
+  "error_output_too_large": {
+    "message": "결과 파일이 너무 큽니다. 이미지 수를 줄여 주세요."
+  },
+  "error_out_of_memory": {
+    "message": "메모리가 부족합니다. 이미지 수를 줄여 주세요."
+  },
+  "error_unknown": {
+    "message": "알 수 없는 오류가 발생했습니다."
+  },
+  "item_cropped": {
+    "message": "영역 편집됨"
+  },
+  "item_crop_label": {
+    "message": "$1번째 항목 영역 편집"
+  },
+  "item_remove_title": {
+    "message": "목록에서 빼기"
+  },
+  "item_remove_label": {
+    "message": "$1번째 항목 목록에서 빼기"
+  },
+  "item_drag_title": {
+    "message": "끌어서 순서 바꾸기"
+  },
+  "item_drag_label": {
+    "message": "$1번째 항목 순서 바꾸기. 위아래 화살표 키로 옮깁니다"
+  },
+  "progress_cancelling": {
+    "message": "취소하는 중…"
+  },
+  "progress_images": {
+    "message": "이미지 처리 중 $1/$2"
+  },
+  "progress_building": {
+    "message": "파일 만드는 중"
+  },
+  "copy_png_only": {
+    "message": "이미지 복사는 PNG만 할 수 있습니다."
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "방금 내려받은 파일($1)을 이 메일에 첨부해 주세요."
+  },
+  "snack_share_failed": {
+    "message": "공유 창을 열 수 없습니다. 다운로드한 뒤 보내 주세요."
+  },
+  "snack_copied": {
+    "message": "이미지를 복사했습니다. 카카오톡이나 메일 창에 붙여넣을 수 있습니다."
+  },
+  "snack_copy_failed": {
+    "message": "이미지를 복사하지 못했습니다. 다운로드한 뒤 보내 주세요."
+  },
+  "snack_mail": {
+    "message": "파일을 내려받았습니다. 메일에 $1 파일을 첨부해 주세요."
+  },
+  "save_location_default": {
+    "message": "저장 폴더: 브라우저 다운로드 폴더"
+  },
+  "save_location_custom": {
+    "message": "저장 폴더: $1"
+  },
+  "save_privacy_note": {
+    "message": "파일은 이 PC 밖으로 나가지 않습니다."
+  },
+  "change_folder": {
+    "message": "변경"
+  },
+  "folder_dialog_title": {
+    "message": "저장 폴더 변경"
+  },
+  "folder_use_default": {
+    "message": "기본 폴더 쓰기"
+  },
+  "folder_pick": {
+    "message": "다른 폴더 고르기"
+  },
+  "progress_saving": {
+    "message": "저장하는 중"
+  },
+  "snack_saved_folder": {
+    "message": "$1 폴더에 저장했습니다: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "저장 폴더에 접근할 수 없습니다. 폴더를 다시 골라 주세요."
+  },
+  "folder_pick_failed": {
+    "message": "폴더를 고를 수 없습니다. 다시 시도해 주세요."
+  }
+}

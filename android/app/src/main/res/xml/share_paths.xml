@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 앱 캐시의 share/ 폴더만 공유 시트에 넘긴다 (DESIGN §2.1.7). -->
+    <cache-path name="share" path="share/" />
+</paths>

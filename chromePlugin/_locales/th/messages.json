@@ -1,0 +1,386 @@
+{
+  "ext_description": {
+    "message": "รวมรูปภาพและ PDF หลายไฟล์เป็น PNG หรือ PDF ไฟล์เดียวเพื่อบันทึกและแชร์ การประมวลผลทั้งหมดเกิดขึ้นบนพีซีเครื่องนี้"
+  },
+  "ext_action_title": {
+    "message": "เปิด Pic Merge"
+  },
+  "app_subtitle": {
+    "message": "รวมรูปภาพ"
+  },
+  "html_lang": {
+    "message": "th"
+  },
+  "history_title": {
+    "message": "ประวัติล่าสุด"
+  },
+  "add_progress_label": {
+    "message": "กำลังโหลดไฟล์"
+  },
+  "list_panel_label": {
+    "message": "รายการที่เลือก"
+  },
+  "list_count": {
+    "message": "รูปภาพที่เลือก $1/$2"
+  },
+  "add": {
+    "message": "เพิ่ม"
+  },
+  "clear": {
+    "message": "ล้าง"
+  },
+  "empty_title": {
+    "message": "เลือกรูปภาพที่จะรวมอย่างน้อย 2 รูป"
+  },
+  "empty_text": {
+    "message": "ระบบจะเลือกทิศทางการจัดวางให้อัตโนมัติ"
+  },
+  "pick_files": {
+    "message": "เลือกรูปภาพหรือ PDF"
+  },
+  "drop_hint": {
+    "message": "คุณสามารถลากไฟล์ JPEG, PNG, WebP และ PDF มาวางบนหน้านี้ได้ด้วย"
+  },
+  "output_panel_label": {
+    "message": "การตั้งค่าผลลัพธ์และตัวอย่าง"
+  },
+  "setting_paper": {
+    "message": "กระดาษ"
+  },
+  "setting_orientation": {
+    "message": "แนวกระดาษ"
+  },
+  "orientation_portrait": {
+    "message": "แนวตั้ง"
+  },
+  "orientation_landscape": {
+    "message": "แนวนอน"
+  },
+  "setting_per_sheet": {
+    "message": "จำนวนรูปต่อแผ่น"
+  },
+  "setting_image_size": {
+    "message": "ขนาดรูปภาพ"
+  },
+  "setting_padding": {
+    "message": "ระยะขอบ"
+  },
+  "setting_color": {
+    "message": "สี"
+  },
+  "color_color": {
+    "message": "สี"
+  },
+  "color_gray": {
+    "message": "ขาวดำ"
+  },
+  "paper_a4": {
+    "message": "A4"
+  },
+  "paper_a3": {
+    "message": "A3"
+  },
+  "paper_a5": {
+    "message": "A5"
+  },
+  "paper_b4": {
+    "message": "B4"
+  },
+  "paper_b5": {
+    "message": "B5"
+  },
+  "paper_letter": {
+    "message": "Letter"
+  },
+  "paper_legal": {
+    "message": "Legal"
+  },
+  "paper_original": {
+    "message": "ขนาดต้นฉบับ"
+  },
+  "percent_value": {
+    "message": "$1%"
+  },
+  "preview_label": {
+    "message": "ตัวอย่าง"
+  },
+  "preview_summary": {
+    "message": "จำนวนหน้า: $1 · จำนวนรูปต่อแผ่น: $2"
+  },
+  "preview_page_label": {
+    "message": "หน้า $1"
+  },
+  "preview_note_horizontal": {
+    "message": "PNG จะต่อหน้าจากซ้ายไปขวาเป็นไฟล์เดียว และมีเส้นสีเทาคั่นระหว่างรูป PDF จะบันทึกแยกทีละหน้าโดยไม่มีเส้น"
+  },
+  "preview_note_vertical": {
+    "message": "PNG จะต่อหน้าจากบนลงล่างเป็นไฟล์เดียว และมีเส้นสีเทาคั่นระหว่างรูป PDF จะบันทึกแยกทีละหน้าโดยไม่มีเส้น"
+  },
+  "preview_note_original": {
+    "message": "นี่คือตัวอย่าง PNG ใน PNG จะมีเส้นสีเทาคั่นระหว่างรูป PDF จะบันทึกรูปละหนึ่งหน้าโดยไม่มีเส้น"
+  },
+  "direction_horizontal": {
+    "message": "อัตโนมัติ: เรียงข้างกัน (ซ้าย → ขวา)"
+  },
+  "direction_vertical": {
+    "message": "อัตโนมัติ: เรียงซ้อนกัน (บน → ล่าง)"
+  },
+  "save_hint": {
+    "message": "เลือกอย่างน้อย 2 รูปเพื่อบันทึก"
+  },
+  "save_png": {
+    "message": "บันทึก PNG"
+  },
+  "save_pdf": {
+    "message": "บันทึก PDF"
+  },
+  "share": {
+    "message": "แชร์"
+  },
+  "drop_overlay": {
+    "message": "วางที่นี่เพื่อเพิ่มลงในรายการ"
+  },
+  "progress_hint": {
+    "message": "รูปภาพขนาดใหญ่อาจใช้เวลาหลายสิบวินาที"
+  },
+  "progress_keep_tab": {
+    "message": "อย่าปิดแท็บนี้จนกว่าจะเสร็จ"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "share_format_title": {
+    "message": "ต้องการแชร์เป็นรูปแบบใด"
+  },
+  "share_as_png": {
+    "message": "แชร์เป็น PNG"
+  },
+  "share_as_pdf": {
+    "message": "แชร์เป็น PDF"
+  },
+  "share_png": {
+    "message": "แชร์ PNG"
+  },
+  "share_pdf": {
+    "message": "แชร์ PDF"
+  },
+  "share_title": {
+    "message": "สร้างไฟล์แล้ว"
+  },
+  "share_system": {
+    "message": "แชร์"
+  },
+  "share_copy": {
+    "message": "คัดลอกรูปภาพ"
+  },
+  "share_mail": {
+    "message": "เขียนอีเมล"
+  },
+  "share_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "share_unavailable": {
+    "message": "Chrome บนพีซีเครื่องนี้ไม่รองรับหน้าต่างแชร์ไฟล์ โปรดดาวน์โหลดหรือคัดลอกแล้วจึงส่ง"
+  },
+  "share_note": {
+    "message": "บนพีซีไม่สามารถส่งไปยัง KakaoTalk หรือ SMS ได้โดยตรง หากแอปนั้นอยู่ในหน้าต่างแชร์ของระบบที่เปิดจาก \"แชร์\" คุณสามารถเลือกได้จากที่นั่น หลังจาก \"คัดลอกรูปภาพ\" สามารถวาง PNG ลงในแชต KakaoTalk บนพีซีได้ \"เขียนอีเมล\" จะดาวน์โหลดไฟล์และเปิดแอปอีเมล คุณต้องแนบไฟล์เอง"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "crop_title": {
+    "message": "แก้ไขพื้นที่"
+  },
+  "crop_loading": {
+    "message": "กำลังเปิดรูปภาพ…"
+  },
+  "crop_image_alt": {
+    "message": "รูปภาพที่จะแก้ไข"
+  },
+  "crop_reset": {
+    "message": "เลือกทั้งหมด"
+  },
+  "crop_apply": {
+    "message": "ใช้"
+  },
+  "history_empty": {
+    "message": "ยังไม่เคยบันทึก"
+  },
+  "snack_max_images": {
+    "message": "เพิ่มได้สูงสุด $1 รูป"
+  },
+  "snack_unsupported": {
+    "message": "จำนวนไฟล์ที่ถูกตัดออกเพราะไม่รองรับรูปแบบ: $1"
+  },
+  "snack_over_limit": {
+    "message": "เพิ่มได้สูงสุด $1 รูป จึงเพิ่มได้เพียง $2 รูป"
+  },
+  "clear_confirm": {
+    "message": "นำรูปภาพที่เลือกทั้งหมดออกจากรายการหรือไม่\nไฟล์ต้นฉบับจะไม่ถูกลบ"
+  },
+  "crop_open_failed_title": {
+    "message": "ไม่สามารถเปิดรูปภาพได้"
+  },
+  "crop_open_failed_message": {
+    "message": "โปรดเลือกรูปภาพอีกครั้ง"
+  },
+  "snack_saved": {
+    "message": "บันทึกผ่านการดาวน์โหลดของเบราว์เซอร์แล้ว: $1"
+  },
+  "snack_share_cancelled": {
+    "message": "ยกเลิกการแชร์แล้ว"
+  },
+  "snack_save_cancelled": {
+    "message": "ยกเลิกการบันทึกแล้ว"
+  },
+  "alert_share_failed_title": {
+    "message": "ไม่สามารถสร้างไฟล์ได้"
+  },
+  "alert_save_failed_title": {
+    "message": "ไม่สามารถบันทึกได้"
+  },
+  "crashed_title": {
+    "message": "การบันทึกครั้งก่อนยังไม่เสร็จ"
+  },
+  "crashed_message": {
+    "message": "การบันทึกครั้งก่อนหยุดกลางคัน โปรดเปิดแอปไว้จนกว่าจะบันทึกเสร็จ หากยังเกิดขึ้นอีก โปรดใช้รูปภาพให้น้อยลง"
+  },
+  "ok": {
+    "message": "ตกลง"
+  },
+  "history_count": {
+    "message": "$1 รูป"
+  },
+  "history_rate": {
+    "message": "อัตราสำเร็จ $1 วันล่าสุด: $2% ($3/$4)"
+  },
+  "history_rate_none": {
+    "message": "ไม่มีการบันทึกใน $1 วันล่าสุด"
+  },
+  "status_running": {
+    "message": "กำลังดำเนินการ"
+  },
+  "status_success": {
+    "message": "สำเร็จ"
+  },
+  "status_failed": {
+    "message": "ล้มเหลว"
+  },
+  "status_cancelled": {
+    "message": "ยกเลิก"
+  },
+  "status_crashed": {
+    "message": "หยุดผิดปกติ"
+  },
+  "error_unsupported_format": {
+    "message": "มีรูปภาพที่ไม่รองรับรูปแบบ"
+  },
+  "error_unsupported_format_n": {
+    "message": "รูปที่ $1 มีรูปแบบที่ไม่รองรับ"
+  },
+  "error_corrupt_file": {
+    "message": "มีไฟล์รูปภาพที่เสียหาย"
+  },
+  "error_corrupt_file_n": {
+    "message": "ไฟล์รูปที่ $1 เสียหาย"
+  },
+  "error_source_unavailable": {
+    "message": "ไม่สามารถเปิดรูปภาพได้ โปรดเลือกอีกครั้ง"
+  },
+  "error_source_unavailable_n": {
+    "message": "ไม่สามารถเปิดรูปที่ $1 ได้ โปรดเลือกอีกครั้ง"
+  },
+  "error_out_of_space": {
+    "message": "พื้นที่จัดเก็บไม่เพียงพอ"
+  },
+  "error_output_too_large": {
+    "message": "ไฟล์ผลลัพธ์ใหญ่เกินไป โปรดใช้รูปภาพให้น้อยลง"
+  },
+  "error_out_of_memory": {
+    "message": "หน่วยความจำไม่เพียงพอ โปรดใช้รูปภาพให้น้อยลง"
+  },
+  "error_unknown": {
+    "message": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "item_cropped": {
+    "message": "แก้ไขพื้นที่แล้ว"
+  },
+  "item_crop_label": {
+    "message": "แก้ไขพื้นที่ของรายการที่ $1"
+  },
+  "item_remove_title": {
+    "message": "นำออกจากรายการ"
+  },
+  "item_remove_label": {
+    "message": "นำรายการที่ $1 ออกจากรายการ"
+  },
+  "item_drag_title": {
+    "message": "ลากเพื่อเปลี่ยนลำดับ"
+  },
+  "item_drag_label": {
+    "message": "เปลี่ยนลำดับรายการที่ $1 ใช้ปุ่มลูกศรขึ้นและลงเพื่อย้าย"
+  },
+  "progress_cancelling": {
+    "message": "กำลังยกเลิก…"
+  },
+  "progress_images": {
+    "message": "กำลังประมวลผลรูปภาพ $1/$2"
+  },
+  "progress_building": {
+    "message": "กำลังสร้างไฟล์"
+  },
+  "copy_png_only": {
+    "message": "คัดลอกเป็นรูปภาพได้เฉพาะ PNG"
+  },
+  "mail_subject": {
+    "message": "Pic Merge: $1"
+  },
+  "mail_body": {
+    "message": "โปรดแนบไฟล์ที่เพิ่งดาวน์โหลด ($1) ไปกับอีเมลนี้"
+  },
+  "snack_share_failed": {
+    "message": "ไม่สามารถเปิดหน้าต่างแชร์ได้ โปรดดาวน์โหลดแล้วจึงส่ง"
+  },
+  "snack_copied": {
+    "message": "คัดลอกรูปภาพแล้ว คุณสามารถวางลงใน KakaoTalk หรืออีเมลได้"
+  },
+  "snack_copy_failed": {
+    "message": "ไม่สามารถคัดลอกรูปภาพได้ โปรดดาวน์โหลดแล้วจึงส่ง"
+  },
+  "snack_mail": {
+    "message": "ดาวน์โหลดไฟล์แล้ว โปรดแนบ $1 ไปกับอีเมล"
+  },
+  "save_location_default": {
+    "message": "โฟลเดอร์บันทึก: โฟลเดอร์ดาวน์โหลดของเบราว์เซอร์"
+  },
+  "save_location_custom": {
+    "message": "โฟลเดอร์บันทึก: $1"
+  },
+  "save_privacy_note": {
+    "message": "ไฟล์จะไม่ออกจากพีซีเครื่องนี้"
+  },
+  "change_folder": {
+    "message": "เปลี่ยน"
+  },
+  "folder_dialog_title": {
+    "message": "เปลี่ยนโฟลเดอร์บันทึก"
+  },
+  "folder_use_default": {
+    "message": "ใช้โฟลเดอร์เริ่มต้น"
+  },
+  "folder_pick": {
+    "message": "เลือกโฟลเดอร์อื่น"
+  },
+  "progress_saving": {
+    "message": "กำลังบันทึก"
+  },
+  "snack_saved_folder": {
+    "message": "บันทึกไปยัง $1 แล้ว: $2"
+  },
+  "error_folder_unavailable": {
+    "message": "เข้าถึงโฟลเดอร์บันทึกไม่ได้ โปรดเลือกโฟลเดอร์อีกครั้ง"
+  },
+  "folder_pick_failed": {
+    "message": "เลือกโฟลเดอร์ไม่ได้ โปรดลองอีกครั้ง"
+  }
+}
